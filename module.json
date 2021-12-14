@@ -1,0 +1,34 @@
+{
+  "name":"ironsworn-es-es",
+  "title":"Ironsworn - Español",
+  "description":"Traducción en español para el sistema Ironsworn y suplemento Delve.",
+  "version":"0.0.1",
+  "author":"Gato Malefico",
+  "minimumCoreVersion":"0.8.9",
+  "compatibleCoreVersion":"0.8.9",
+  "esmodules": ["babele-register.js"],
+  "url":"https://github.com/jesberpen/ironsworn-es-es",
+  "manifest": "https://raw.githubusercontent.com/jesberpen/ironsworn-es-es/main/module.json",
+  "download": "https://codeload.github.com/jesberpen/ironsworn-es-es/zip/main",
+   "languages":[
+      {
+         "lang": "es",
+         "name": "Español",
+         "path":"es.json"
+      }
+   ],
+   "dependencies":[
+      {
+         "name":"babele",
+         "manifest":"https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json"
+      },
+      {
+        "name": "foundry-ironsworn",
+        "type": "system"
+      }
+   ],
+  "system": [
+    "foundry-ironsworn"
+  ],
+  "packs": []
+}

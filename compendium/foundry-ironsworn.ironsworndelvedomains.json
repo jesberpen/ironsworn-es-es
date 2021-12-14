@@ -1,0 +1,53 @@
+{
+	"label": "Ironsworn Delve Domains",
+	"entries": [
+		{
+			"id": "Barrow",
+			"name": "Barrow"
+		},
+		{
+			"id": "Cavern",
+			"name": "Cavern"
+		},
+		{
+			"id": "Frozen Cavern",
+			"name": "Frozen Cavern"
+		},
+		{
+			"id": "Icereach",
+			"name": "Icereach"
+		},
+		{
+			"id": "Mine",
+			"name": "Mine"
+		},
+		{
+			"id": "Pass",
+			"name": "Pass"
+		},
+		{
+			"id": "Ruin",
+			"name": "Ruin"
+		},
+		{
+			"id": "Sea Cave",
+			"name": "Sea Cave"
+		},
+		{
+			"id": "Shadowfen",
+			"name": "Shadowfen"
+		},
+		{
+			"id": "Stronghold",
+			"name": "Stronghold"
+		},
+		{
+			"id": "Tanglewood",
+			"name": "Tanglewood"
+		},
+		{
+			"id": "Underkeep",
+			"name": "Underkeep"
+		}
+	]
+}

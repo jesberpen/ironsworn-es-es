@@ -1,0 +1,362 @@
+{
+	"label": "Ironsworn Assets",
+	"entries": [
+		{
+			"id": "Combat Talent / Archer",
+			"name": "Combat Talent / Archer"
+		},
+		{
+			"id": "Combat Talent / Berserker",
+			"name": "Combat Talent / Berserker"
+		},
+		{
+			"id": "Combat Talent / Brawler",
+			"name": "Combat Talent / Brawler"
+		},
+		{
+			"id": "Combat Talent / Cutthroat",
+			"name": "Combat Talent / Cutthroat"
+		},
+		{
+			"id": "Combat Talent / Duelist",
+			"name": "Combat Talent / Duelist"
+		},
+		{
+			"id": "Combat Talent / Fletcher",
+			"name": "Combat Talent / Fletcher",
+			"description": ""
+		},
+		{
+			"id": "Combat Talent / Ironclad",
+			"name": "Combat Talent / Ironclad"
+		},
+		{
+			"id": "Combat Talent / Long-Arm",
+			"name": "Combat Talent / Long-Arm"
+		},
+		{
+			"id": "Combat Talent / Shield-Bearer",
+			"name": "Combat Talent / Shield-Bearer"
+		},
+		{
+			"id": "Combat Talent / Skirmisher",
+			"name": "Combat Talent / Skirmisher"
+		},
+		{
+			"id": "Combat Talent / Slinger",
+			"name": "Combat Talent / Slinger"
+		},
+		{
+			"id": "Combat Talent / Sunderer",
+			"name": "Combat Talent / Sunderer"
+		},
+		{
+			"id": "Combat Talent / Swordmaster",
+			"name": "Combat Talent / Swordmaster"
+		},
+		{
+			"id": "Combat Talent / Thunder-Bringer",
+			"name": "Combat Talent / Thunder-Bringer"
+		},
+		{
+			"id": "Companion / Cave Lion",
+			"name": "Companion / Cave Lion"
+		},
+		{
+			"id": "Companion / Giant Spider",
+			"name": "Companion / Giant Spider"
+		},
+		{
+			"id": "Companion / Hawk",
+			"name": "Companion / Hawk"
+		},
+		{
+			"id": "Companion / Horse",
+			"name": "Companion / Horse"
+		},
+		{
+			"id": "Companion / Hound",
+			"name": "Companion / Hound"
+		},
+		{
+			"id": "Companion / Kindred",
+			"name": "Companion / Kindred"
+		},
+		{
+			"id": "Companion / Mammoth",
+			"name": "Companion / Mammoth"
+		},
+		{
+			"id": "Companion / Owl",
+			"name": "Companion / Owl"
+		},
+		{
+			"id": "Companion / Raven",
+			"name": "Companion / Raven"
+		},
+		{
+			"id": "Companion / Young Wyvern",
+			"name": "Companion / Young Wyvern"
+		},
+		{
+			"id": "Path / Alchemist",
+			"name": "Path / Alchemist",
+			"description": ""
+		},
+		{
+			"id": "Path / Animal Kin",
+			"name": "Path / Animal Kin",
+			"description": ""
+		},
+		{
+			"id": "Path / Banner-Sworn",
+			"name": "Path / Banner-Sworn"
+		},
+		{
+			"id": "Path / Battle-Scarred",
+			"name": "Path / Battle-Scarred"
+		},
+		{
+			"id": "Path / Blade-Bound",
+			"name": "Path / Blade-Bound"
+		},
+		{
+			"id": "Path / Bonded",
+			"name": "Path / Bonded",
+			"description": ""
+		},
+		{
+			"id": "Path / Commander",
+			"name": "Path / Commander",
+			"description": ""
+		},
+		{
+			"id": "Path / Dancer",
+			"name": "Path / Dancer",
+			"description": ""
+		},
+		{
+			"id": "Path / Devotant",
+			"name": "Path / Devotant",
+			"description": ""
+		},
+		{
+			"id": "Path / Empowered",
+			"name": "Path / Empowered",
+			"description": ""
+		},
+		{
+			"id": "Path / Fated",
+			"name": "Path / Fated",
+			"description": ""
+		},
+		{
+			"id": "Path / Fortune Hunter",
+			"name": "Path / Fortune Hunter",
+			"description": ""
+		},
+		{
+			"id": "Path / Herbalist",
+			"name": "Path / Herbalist",
+			"description": ""
+		},
+		{
+			"id": "Path / Honorbound",
+			"name": "Path / Honorbound",
+			"description": ""
+		},
+		{
+			"id": "Path / Improviser",
+			"name": "Path / Improviser",
+			"description": ""
+		},
+		{
+			"id": "Path / Infiltrator",
+			"name": "Path / Infiltrator",
+			"description": ""
+		},
+		{
+			"id": "Path / Lorekeeper",
+			"name": "Path / Lorekeeper",
+			"description": ""
+		},
+		{
+			"id": "Path / Loyalist",
+			"name": "Path / Loyalist",
+			"description": ""
+		},
+		{
+			"id": "Path / Masked",
+			"name": "Path / Masked"
+		},
+		{
+			"id": "Path / Oathbreaker",
+			"name": "Path / Oathbreaker"
+		},
+		{
+			"id": "Path / Outcast",
+			"name": "Path / Outcast",
+			"description": ""
+		},
+		{
+			"id": "Path / Pretender",
+			"name": "Path / Pretender",
+			"description": ""
+		},
+		{
+			"id": "Path / Revenant",
+			"name": "Path / Revenant"
+		},
+		{
+			"id": "Path / Rider",
+			"name": "Path / Rider"
+		},
+		{
+			"id": "Path / Ritualist",
+			"name": "Path / Ritualist"
+		},
+		{
+			"id": "Path / Shadow-Kin",
+			"name": "Path / Shadow-Kin"
+		},
+		{
+			"id": "Path / Sighted",
+			"name": "Path / Sighted",
+			"description": ""
+		},
+		{
+			"id": "Path / Slayer",
+			"name": "Path / Slayer",
+			"description": ""
+		},
+		{
+			"id": "Path / Spirit-Bound",
+			"name": "Path / Spirit-Bound",
+			"description": ""
+		},
+		{
+			"id": "Path / Storyweaver",
+			"name": "Path / Storyweaver",
+			"description": ""
+		},
+		{
+			"id": "Path / Trickster",
+			"name": "Path / Trickster",
+			"description": ""
+		},
+		{
+			"id": "Path / Veteran",
+			"name": "Path / Veteran",
+			"description": ""
+		},
+		{
+			"id": "Path / Waterborn",
+			"name": "Path / Waterborn",
+			"description": ""
+		},
+		{
+			"id": "Path / Wayfinder",
+			"name": "Path / Wayfinder",
+			"description": ""
+		},
+		{
+			"id": "Path / Weaponmaster",
+			"name": "Path / Weaponmaster"
+		},
+		{
+			"id": "Path / Wildblood",
+			"name": "Path / Wildblood",
+			"description": ""
+		},
+		{
+			"id": "Path / Wright",
+			"name": "Path / Wright",
+			"description": ""
+		},
+		{
+			"id": "Ritual / Augur",
+			"name": "Ritual / Augur",
+			"description": ""
+		},
+		{
+			"id": "Ritual / Awakening",
+			"name": "Ritual / Awakening",
+			"description": ""
+		},
+		{
+			"id": "Ritual / Bind",
+			"name": "Ritual / Bind",
+			"description": ""
+		},
+		{
+			"id": "Ritual / Communion",
+			"name": "Ritual / Communion",
+			"description": ""
+		},
+		{
+			"id": "Ritual / Divination",
+			"name": "Ritual / Divination",
+			"description": ""
+		},
+		{
+			"id": "Ritual / Invoke",
+			"name": "Ritual / Invoke",
+			"description": ""
+		},
+		{
+			"id": "Ritual / Keen",
+			"name": "Ritual / Keen",
+			"description": ""
+		},
+		{
+			"id": "Ritual / Leech",
+			"name": "Ritual / Leech",
+			"description": ""
+		},
+		{
+			"id": "Ritual / Lightbearer",
+			"name": "Ritual / Lightbearer",
+			"description": ""
+		},
+		{
+			"id": "Ritual / Scry",
+			"name": "Ritual / Scry",
+			"description": ""
+		},
+		{
+			"id": "Ritual / Shadow-Walk",
+			"name": "Ritual / Shadow-Walk",
+			"description": ""
+		},
+		{
+			"id": "Ritual / Sway",
+			"name": "Ritual / Sway",
+			"description": ""
+		},
+		{
+			"id": "Ritual / Talisman",
+			"name": "Ritual / Talisman",
+			"description": ""
+		},
+		{
+			"id": "Ritual / Tether",
+			"name": "Ritual / Tether",
+			"description": ""
+		},
+		{
+			"id": "Ritual / Totem",
+			"name": "Ritual / Totem",
+			"description": ""
+		},
+		{
+			"id": "Ritual / Visage",
+			"name": "Ritual / Visage",
+			"description": ""
+		},
+		{
+			"id": "Ritual / Ward",
+			"name": "Ritual / Ward",
+			"description": ""
+		}
+	]
+}

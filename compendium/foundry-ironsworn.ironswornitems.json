@@ -1,0 +1,197 @@
+{
+	"label": "Ironsworn Moves",
+	"entries": [
+		{
+			"id": "Advance",
+			"name": "Advance"
+		},
+		{
+			"id": "Advance a Threat",
+			"name": "Advance a Threat"
+		},
+		{
+			"id": "Aid Your Ally",
+			"name": "Aid Your Ally"
+		},
+		{
+			"id": "Ask the Oracle",
+			"name": "Ask the Oracle"
+		},
+		{
+			"id": "Battle",
+			"name": "Battle"
+		},
+		{
+			"id": "Check Your Gear",
+			"name": "Check Your Gear"
+		},
+		{
+			"id": "Clash",
+			"name": "Clash"
+		},
+		{
+			"id": "Companion Endure Harm",
+			"name": "Companion Endure Harm"
+		},
+		{
+			"id": "Compel",
+			"name": "Compel"
+		},
+		{
+			"id": "Delve the Depths",
+			"name": "Delve the Depths"
+		},
+		{
+			"id": "Discover a Site",
+			"name": "Discover a Site"
+		},
+		{
+			"id": "Draw the Circle",
+			"name": "Draw the Circle"
+		},
+		{
+			"id": "End the Fight",
+			"name": "End the Fight"
+		},
+		{
+			"id": "Endure Harm",
+			"name": "Endure Harm"
+		},
+		{
+			"id": "Endure Stress",
+			"name": "Endure Stress"
+		},
+		{
+			"id": "Enter the Fray",
+			"name": "Enter the Fray"
+		},
+		{
+			"id": "Escape the Depths",
+			"name": "Escape the Depths"
+		},
+		{
+			"id": "Face Danger",
+			"name": "Face Danger"
+		},
+		{
+			"id": "Face Death",
+			"name": "Face Death"
+		},
+		{
+			"id": "Face Desolation",
+			"name": "Face Desolation"
+		},
+		{
+			"id": "Face a Setback",
+			"name": "Face a Setback"
+		},
+		{
+			"id": "Find an Opportunity",
+			"name": "Find an Opportunity"
+		},
+		{
+			"id": "Forge a Bond",
+			"name": "Forge a Bond"
+		},
+		{
+			"id": "Forsake Your Vow",
+			"name": "Forsake Your Vow"
+		},
+		{
+			"id": "Fulfill Your Vow",
+			"name": "Fulfill Your Vow"
+		},
+		{
+			"id": "Gather Information",
+			"name": "Gather Information"
+		},
+		{
+			"id": "Heal",
+			"name": "Heal"
+		},
+		{
+			"id": "Learn From Your Failures",
+			"name": "Learn From Your Failures"
+		},
+		{
+			"id": "Locate Your Objective",
+			"name": "Locate Your Objective"
+		},
+		{
+			"id": "Make Camp",
+			"name": "Make Camp"
+		},
+		{
+			"id": "Mark Your Failure",
+			"name": "Mark Your Failure"
+		},
+		{
+			"id": "Out of Supply",
+			"name": "Out of Supply"
+		},
+		{
+			"id": "Pay the Price",
+			"name": "Pay the Price"
+		},
+		{
+			"id": "Reach Your Destination",
+			"name": "Reach Your Destination"
+		},
+		{
+			"id": "Reach a Milestone",
+			"name": "Reach a Milestone"
+		},
+		{
+			"id": "Resupply",
+			"name": "Resupply"
+		},
+		{
+			"id": "Reveal a Danger",
+			"name": "Reveal a Danger"
+		},
+		{
+			"id": "Reveal a Danger (alternate version)",
+			"name": "Reveal a Danger (alternate version)"
+		},
+		{
+			"id": "Secure An Advantage",
+			"name": "Secure An Advantage"
+		},
+		{
+			"id": "Sojourn",
+			"name": "Sojourn"
+		},
+		{
+			"id": "Strike",
+			"name": "Strike"
+		},
+		{
+			"id": "Swear an Iron Vow",
+			"name": "Swear an Iron Vow"
+		},
+		{
+			"id": "Take a Hiatus",
+			"name": "Take a Hiatus"
+		},
+		{
+			"id": "Test Your Bond",
+			"name": "Test Your Bond"
+		},
+		{
+			"id": "Turn the Tide",
+			"name": "Turn the Tide"
+		},
+		{
+			"id": "Undertake a Journey",
+			"name": "Undertake a Journey"
+		},
+		{
+			"id": "Wield a Rarity",
+			"name": "Wield a Rarity"
+		},
+		{
+			"id": "Write Your Epilogue",
+			"name": "Write Your Epilogue"
+		}
+	]
+}

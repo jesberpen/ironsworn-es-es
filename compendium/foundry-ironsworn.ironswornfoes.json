@@ -1,0 +1,237 @@
+{
+	"label": "Ironsworn Foes",
+	"entries": [
+		{
+			"id": "Atanya",
+			"name": "Atanya"
+		},
+		{
+			"id": "Basilisk",
+			"name": "Basilisk"
+		},
+		{
+			"id": "Bear",
+			"name": "Bear"
+		},
+		{
+			"id": "Bladewing",
+			"name": "Bladewing"
+		},
+		{
+			"id": "Blighthound",
+			"name": "Blighthound"
+		},
+		{
+			"id": "Blood Thorn",
+			"name": "Blood Thorn"
+		},
+		{
+			"id": "Boar",
+			"name": "Boar"
+		},
+		{
+			"id": "Bog Rot",
+			"name": "Bog Rot"
+		},
+		{
+			"id": "Bonehorde",
+			"name": "Bonehorde"
+		},
+		{
+			"id": "Bonewalker",
+			"name": "Bonewalker"
+		},
+		{
+			"id": "Broken",
+			"name": "Broken"
+		},
+		{
+			"id": "Carrion Newt",
+			"name": "Carrion Newt"
+		},
+		{
+			"id": "Cave Lion",
+			"name": "Cave Lion"
+		},
+		{
+			"id": "Chimera",
+			"name": "Chimera"
+		},
+		{
+			"id": "Chitter",
+			"name": "Chitter"
+		},
+		{
+			"id": "Circle of Stones",
+			"name": "Circle of Stones"
+		},
+		{
+			"id": "Common Folk",
+			"name": "Common Folk"
+		},
+		{
+			"id": "Deep Rat",
+			"name": "Deep Rat"
+		},
+		{
+			"id": "Elder Beast",
+			"name": "Elder Beast"
+		},
+		{
+			"id": "Elf",
+			"name": "Elf"
+		},
+		{
+			"id": "Frostbound",
+			"name": "Frostbound"
+		},
+		{
+			"id": "Gaunt",
+			"name": "Gaunt"
+		},
+		{
+			"id": "Giant",
+			"name": "Giant"
+		},
+		{
+			"id": "Glimmer",
+			"name": "Glimmer"
+		},
+		{
+			"id": "Gloom",
+			"name": "Gloom"
+		},
+		{
+			"id": "Gnarl",
+			"name": "Gnarl"
+		},
+		{
+			"id": "Harrow Spider",
+			"name": "Harrow Spider"
+		},
+		{
+			"id": "Haunt",
+			"name": "Haunt"
+		},
+		{
+			"id": "Hollow",
+			"name": "Hollow"
+		},
+		{
+			"id": "Hunter",
+			"name": "Hunter"
+		},
+		{
+			"id": "Husk",
+			"name": "Husk"
+		},
+		{
+			"id": "Iron Revenant",
+			"name": "Iron Revenant"
+		},
+		{
+			"id": "Iron-Wracked Beast",
+			"name": "Iron-Wracked Beast"
+		},
+		{
+			"id": "Kraken",
+			"name": "Kraken"
+		},
+		{
+			"id": "Leviathan",
+			"name": "Leviathan"
+		},
+		{
+			"id": "Maelstrom",
+			"name": "Maelstrom"
+		},
+		{
+			"id": "Mammoth",
+			"name": "Mammoth"
+		},
+		{
+			"id": "Marsh Rat",
+			"name": "Marsh Rat"
+		},
+		{
+			"id": "Merrow",
+			"name": "Merrow"
+		},
+		{
+			"id": "Mystic",
+			"name": "Mystic"
+		},
+		{
+			"id": "Nightmare Spider",
+			"name": "Nightmare Spider"
+		},
+		{
+			"id": "Nightspawn",
+			"name": "Nightspawn"
+		},
+		{
+			"id": "Primordial",
+			"name": "Primordial"
+		},
+		{
+			"id": "Raider",
+			"name": "Raider"
+		},
+		{
+			"id": "Rhaskar",
+			"name": "Rhaskar"
+		},
+		{
+			"id": "Shroud Crab",
+			"name": "Shroud Crab"
+		},
+		{
+			"id": "Sodden",
+			"name": "Sodden"
+		},
+		{
+			"id": "Tempest",
+			"name": "Tempest"
+		},
+		{
+			"id": "Thrall",
+			"name": "Thrall"
+		},
+		{
+			"id": "Trog",
+			"name": "Trog"
+		},
+		{
+			"id": "Troll",
+			"name": "Troll"
+		},
+		{
+			"id": "Varou",
+			"name": "Varou"
+		},
+		{
+			"id": "Warrior",
+			"name": "Warrior"
+		},
+		{
+			"id": "Wight",
+			"name": "Wight"
+		},
+		{
+			"id": "Wolf",
+			"name": "Wolf"
+		},
+		{
+			"id": "Wyrm",
+			"name": "Wyrm"
+		},
+		{
+			"id": "Wyvern",
+			"name": "Wyvern"
+		},
+		{
+			"id": "Zealot",
+			"name": "Zealot"
+		}
+	]
+}

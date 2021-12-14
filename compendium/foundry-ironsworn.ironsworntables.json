@@ -1,0 +1,151 @@
+{
+	"label": "Ironsworn Tables",
+	"entries": [
+		{
+			"id": "Oracle: Action",
+			"name": "Oracle: Action"
+		},
+		{
+			"id": "Oracle: Challenge Rank",
+			"name": "Oracle: Challenge Rank"
+		},
+		{
+			"id": "Oracle: Character Descriptor",
+			"name": "Oracle: Character Descriptor"
+		},
+		{
+			"id": "Oracle: Character Disposition",
+			"name": "Oracle: Character Disposition"
+		},
+		{
+			"id": "Oracle: Character Goal",
+			"name": "Oracle: Character Goal"
+		},
+		{
+			"id": "Oracle: Character Role",
+			"name": "Oracle: Character Role"
+		},
+		{
+			"id": "Oracle: Choice (50/50)",
+			"name": "Oracle: Choice (50/50)"
+		},
+		{
+			"id": "Oracle: Choice (Almost Certain)",
+			"name": "Oracle: Choice (Almost Certain)"
+		},
+		{
+			"id": "Oracle: Choice (Likely)",
+			"name": "Oracle: Choice (Likely)"
+		},
+		{
+			"id": "Oracle: Choice (Small Chance)",
+			"name": "Oracle: Choice (Small Chance)"
+		},
+		{
+			"id": "Oracle: Choice (Unlikely)",
+			"name": "Oracle: Choice (Unlikely)"
+		},
+		{
+			"id": "Oracle: Coastal Waters Location",
+			"name": "Oracle: Coastal Waters Location"
+		},
+		{
+			"id": "Oracle: Combat Action",
+			"name": "Oracle: Combat Action"
+		},
+		{
+			"id": "Oracle: Elf Names",
+			"name": "Oracle: Elf Names"
+		},
+		{
+			"id": "Oracle: Giant Names",
+			"name": "Oracle: Giant Names"
+		},
+		{
+			"id": "Oracle: Ironlander Names",
+			"name": "Oracle: Ironlander Names"
+		},
+		{
+			"id": "Oracle: Location",
+			"name": "Oracle: Location"
+		},
+		{
+			"id": "Oracle: Location Descriptor",
+			"name": "Oracle: Location Descriptor"
+		},
+		{
+			"id": "Oracle: Major Plot Twist",
+			"name": "Oracle: Major Plot Twist"
+		},
+		{
+			"id": "Oracle: Mystic Backlash",
+			"name": "Oracle: Mystic Backlash"
+		},
+		{
+			"id": "Oracle: Quick Settlement Name (Prefix)",
+			"name": "Oracle: Quick Settlement Name (Prefix)"
+		},
+		{
+			"id": "Oracle: Quick Settlement Name (Suffix)",
+			"name": "Oracle: Quick Settlement Name (Suffix)"
+		},
+		{
+			"id": "Oracle: Region",
+			"name": "Oracle: Region"
+		},
+		{
+			"id": "Oracle: Settlement Name",
+			"name": "Oracle: Settlement Name"
+		},
+		{
+			"id": "Oracle: Settlement Name (Creature)",
+			"name": "Oracle: Settlement Name (Creature)",
+			"description": "Why have the people of this settlement chosen this creature as their totem? How is it represented in art or rituals?"
+		},
+		{
+			"id": "Oracle: Settlement Name (Historical Event)",
+			"name": "Oracle: Settlement Name (Historical Event)",
+			"description": "What happened here? What place or practice commemorates this event?"
+		},
+		{
+			"id": "Oracle: Settlement Name (Landscape Feature)",
+			"name": "Oracle: Settlement Name (Landscape Feature)",
+			"description": "Envision what it is. What makes it unusual or distinctive?"
+		},
+		{
+			"id": "Oracle: Settlement Name (Manmade Edifice)",
+			"name": "Oracle: Settlement Name (Manmade Edifice)",
+			"description": "What is it? Why is it important to this settlement’s history?"
+		},
+		{
+			"id": "Oracle: Settlement Name (Old Language)",
+			"name": "Oracle: Settlement Name (Old Language)",
+			"description": "What culture is represented by this word? What does it translate to?"
+		},
+		{
+			"id": "Oracle: Settlement Name (Season or Environmental Aspect)",
+			"name": "Oracle: Settlement Name (Season or Environmental Aspect)",
+			"description": "What influence does the weather have on this settlement?"
+		},
+		{
+			"id": "Oracle: Settlement Name (Something Else)",
+			"name": "Oracle: Settlement Name (Something Else)"
+		},
+		{
+			"id": "Oracle: Settlement Trouble",
+			"name": "Oracle: Settlement Trouble"
+		},
+		{
+			"id": "Oracle: Theme",
+			"name": "Oracle: Theme"
+		},
+		{
+			"id": "Oracle: Troll Names",
+			"name": "Oracle: Troll Names"
+		},
+		{
+			"id": "Oracle: Varou Names",
+			"name": "Oracle: Varou Names"
+		}
+	]
+}
