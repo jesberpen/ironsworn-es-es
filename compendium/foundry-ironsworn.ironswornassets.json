@@ -1,54 +1,115 @@
 {
 	"label": "Ironsworn Assets",
+	"mapping": {
+		"description": "data.description",
+		"field name": "data.fields.name",
+		"abilities description 1": "data.abilities.1.description",
+		"ability 1 enabler": "data.abilities.1.enable",
+		"abilities description 2": "data.abilities.2.description",
+		"abilities description 3": "data.abilities.3.description",
+		"option 1 name": "data.exclusiveOptions.1.name",
+		"option 2 name": "data.exclusiveOptions.2.name",
+		"track name": "data.track.name"
+	},
+
 	"entries": [
 		{
 			"id": "Combat Talent / Archer",
-			"name": "Combat Talent / Archer"
+			"name": "Talento de Combate / Arquero",
+			"description": "Si empuñas un arco...",
+			"abilities description 1": "<p>Cuando <em>Creas una Ventaja</em> tamándote tu tiempo para apuntar, elige tu acercamiento y añade +1.</p><ul><li>Confía en tus instintos: ((rollplus wits)), y gana +2 impulso en un éxito total.</li><li>Alinea tu disparo: ((rollplus edge)), y gana +1 impulso con un éxito.</li></ul>",
+			"ability 1 enabler": true,
+			"abilities description 2": "<p>Una vez por combate, cuando <em>Golpeas</em> o <em>Contratacas</em>, ypuedes hacer disparos extra y sufrir -1 suministros (decide antes de tirar). Cuando lo haces, vuelve a tirar cualquier dado. Con un éxito, aplica +2 daño y gana +1 impulso.</p>",
+			"abilities description 3": "<p>Cuando te <em>Reabasteces</em> cazando, añade +1 y gana +1 impulso con un éxito.</p>"
 		},
 		{
 			"id": "Combat Talent / Berserker",
-			"name": "Combat Talent / Berserker"
+			"name": "Talento de Combate / Berserker",
+			"description": "Si vas cubierto sólo por pieles de animales...",
+			"abilities description 1": "<p>Cuando <em>Creas una Ventaja</em> o <em>Persuades</em> personificando tu naturaleza salvaje, añade +1 y gana +1 impulso con un éxito.</p>",
+			"abilities description 2": "<p>Cuando <em>Golpeas</em> o <em>Contratacas</em> desatando tu rabia (decide antes de tirar), inflige +1 daño con un éxito. Después, elige uno.</p><ul><li>Sobresfuerzo: <em>Soportar Daño</em> (1 daño).</li><li>Peridición: <em>Soportar el Estrés</em> (1 estrés).</li></ul>",
+			"abilities description 3": "<p>Cuando <em>Soportes Daño</em> en un combate, y tu salud está por encima de  0, puedes dejar que el dolor avive tu furia (decide antes de tirar). Si consigues un éxito total y decides aceptar el dolor, gana +impulso igual a tu restante de salud. Un éxito parcial cuenta como un fallo.</p>"
 		},
 		{
 			"id": "Combat Talent / Brawler",
-			"name": "Combat Talent / Brawler"
+			"name": "Combat Talent / Luchador",
+			"description": "Si vas desarmado o combates con un arma no-letal...",
+			"abilities description 1": "<p>Cuando <em>Creas una Ventaja</em> ((rollplus iron)) participando en una pele cuerpo a cuerpo luchando (con puñetazos, patadas o agarres), añade +1. Si consigues un éxito, también puedes infligir 1 de daño.</p>",
+			"abilities description 2": "<p>Cuando usas un ataque desarmado o un arma simple para <em>Golpear</em> con intención de matar, añade +2 e inflige 2 de daño con un éxito (en vez de 1). Con un éxito parcial o un fallo, sufre -1 impulso (aparte de cualquier otra consecuencia del movimiento).</p>",
+			"abilities description 3": "<p>Cuando te <em>Enfrentas al Peligro</em> o <em>Contratacas</em> contra un ataque de lucha, añade +1 y gana +1 impulos con un éxito.</p>"
 		},
 		{
 			"id": "Combat Talent / Cutthroat",
-			"name": "Combat Talent / Cutthroat"
+			"name": "Talento de Combate / Degollador",
+			"description": "Si empuñas una daga o un cuchillo...",
+			"abilities description 1": "<p>Cuando estés en una posición para <em>Golpear</em> a un adversario desprevenido, elige uno (antes de tirar).</p><ul><li>Añade +2 y gana +1 impulsocon un éxito.</li><li>Inflige +2 de daño con un éxito.</li></ul>",
+			"abilities description 2": "<p>Cuando <em>Persuades</em> a alguien con la punta de tu filo, o cuando confías en tu filo al <em>Enfrentar el Peligro</em>, añade +1.</p>",
+			"abilities description 3": "<p>una vez por combate, cuando <em>Creas una Ventaja</em> ((rollplus shadow)) llevando a cabo una finta o creando una confusión, vuelve a tirar cualquier dado y gana +1 impulso con un éxito.</p>"
 		},
 		{
 			"id": "Combat Talent / Duelist",
-			"name": "Combat Talent / Duelist"
+			"name": "Talento de Combate / Duelista",
+			"description": "Si empuñas una arma de filo en cada mano...",
+			"abilities description 1": "<p>Cuando <em>Golpeas</em> o <em>Contratacas</em>, puedes añadir +2. Si lo haces (decide antes de tirar), inflige +1 de daño con un éxito total y cuenta un éxito parcial como un fallo.</p>",
+			"abilities description 2": "<p>Una vez por combate, cuando <em>Creas una Ventaja</em> ((rollplus edge)) haciendo una atrevida muestra de tu habilidad de combate, puedes volver a tirar cualquier dado.</p>",
+			"abilities description 3": "<p>Cuando <em>Trazas el Círculo</em>, elige uno (antes de tirar).</p><ul><li>Añade +2.</li><li>Gana +2 impulso con un éxito.</li></ul>"
 		},
 		{
 			"id": "Combat Talent / Fletcher",
-			"name": "Combat Talent / Fletcher",
-			"description": ""
+			"name": "Talento de Combate / Flechero",
+			"abilities description 1": "<p>Cuando <em>Creas una Ventaja</em> creando flechas de alta calidad, añade +1. Después, gana +1 de sumnistros o +1 impulso con un éxito.</p>",
+			"abilities description 2": "<p>Cuando te <em>Reabasteces</em> recuperando o recogiendo flechas después de un combate, añade +2.</p>",
+			"abilities description 3": "<p>Cuando fabricas una única flecha diseñada para un adversario específico, imagina el proceso y los amteriales, y ((rollplus wits)). Con un éxito total, haz ambos. Con un éxtio parcial, elige uno.</p><ul><li>Buscadora: Cuando el arquero usa esta flecha para <em>Golpear</em> o <em>Contratacar</em> a un enemigo, vuelve a tirar cualquier dado (una vez sólo).</li><li>Devastadora: Cuando un arquero usa esta flecha para infligir daño a su adversario, inflige +1d6 de daño (una vez sólo).</li></ul>"
 		},
 		{
 			"id": "Combat Talent / Ironclad",
-			"name": "Combat Talent / Ironclad"
+			"name": "Talento de Combate / Acorazado",
+			"description": "Si llevas armadura...",
+			"abilities description 1": "<p>Cuando equipes o ajustes tu armadura, elige uno.</p><ul><li>Armadura ligera: Cuando <em>Soportes Daño</em> en un combate, añade +1 y gana +1 impulos con un éxito.</li><li>Preparado para la Guerra: Anota sobrecargado. Cuando <em>Soportes Daño</em> en un combate, añade +2 y gane +1 impulso con un éxito.</li></ul>",
+			"abilities description 2": "<p>Cuando <em>Contratacas</em> mientras vayas preparado para la guerra, añade +1.</p>",
+			"abilities description 3": "<p>Cuando <em>Persuadas</em> en una situación donde el poderíp de las armas es una factor a tener en cuenta, añade +2.</p>",
+			"option 1 name": "Armadura ligera",
+			"option 2 name": "Preparado para la Guerra"
 		},
 		{
 			"id": "Combat Talent / Long-Arm",
-			"name": "Combat Talent / Long-Arm"
+			"name": "Talento de Combate / Arma larga",
+			"description": "Si empuñas un bastón...",
+			"abilities description 1": "<p>En tus manos, un humilde bastón es un arma letal (2 de daño). Cuando sin embargo lo uses como arma simple (1 de daño), puedes <em>Golpear</em> o <em>Contratacar</em> ((rollplus edge)) (en vez de hierro). Si lo haces, añade +1 y gana +1 de impulso con un éxito.</p>",
+			"abilities description 2": "<p>Cuando <em>Creas una Ventaja</em> ((rollplus edge)) usando tu bastón para desarmar, hacer tropezar, empujar, o aturdir a tu adversario, añade +1 y gana +1 impulso con un éxito.</p>",
+			"abilities description 3": "<p>Cuando <em>Viajes</em> y consigas un éxito total, o acompañas a un aliado que consigue un éxito total con ese movimiento, tu bastón provee soporte y confort en tus viajes; gana +1 impulso.</p>"
 		},
 		{
 			"id": "Combat Talent / Shield-Bearer",
-			"name": "Combat Talent / Shield-Bearer"
+			"name": "Talento de Combate / Escudado",
+			"description": "Si empuñas un escudo...",
+			"abilities description 1": "<p>Cuando te <em>Enfrentas al Peligro</em> usando tu escudo para cubrirte, añade +1. Cuando <em>Contratacas</em> cuerpo a cuerpo, gana +1 impulso con un éxito total.</p>",
+			"abilities description 2": "<p>Cuando pintes tu escudo con un símbolo de importancia para ti, imagina que es lo que creas. Después, si <em>Soportas Estrés</em> cuando te enfrentas a un adverasrio temible, añade +1 y gana +1 impulos con un éxito.</p>",
+			"abilities description 3": "<p>Cuando te veas forzado a <em>Soportar Daño</em> en un combate, puedes sacrificar tu escudo e igonrar todo el daño. Si lo haces, el escudo es queda destrozado. Una vez por combate, puedes tomar la iniciativa cuando sacrificas tu escudo para evadir daño.</p>"
 		},
 		{
 			"id": "Combat Talent / Skirmisher",
-			"name": "Combat Talent / Skirmisher"
+			"name": "Talento de Combate / Hostigador",
+			"description": "Si empuñas una lanza...",
+			"abilities description 1": "<p>Cuando te <em>Enfrentas al Peligro</em> manteniendo a tu adversario a raya usando el alcance de tu lanza, ((rollplus iron)) o ((rollplus edge)). Si consigues un éxito, peudes...</p><ul><li>Hierro: <em>Golpear</em> (si tienes la iniciativa) o <em>Contratacar</em> ahora, y añade +1.</li><li>Filo: Gana +1 impulso.</li></ul>",
+			"abilities description 2": "<p>Cuando <em>Golpeas</em> en combate cuerpo a cuerpo, puede intentar lanzar tu lanza (decide antes de tirar). Si lo haces, añade +1 e inflige +2 de daño con un éxito. Si consigues un éxito y el combate continua, te <em>Enfrentas al Peligro</em> ((rollplus iron)) para recuperar tu lanza.</p>",
+			"abilities description 3": "<p>Cuando <em>Creas una Ventaja</em> empuñando tu lanza contra un enemigo que carga contra ti, añade +1 y gana +1 impulso con un éxito.</p>"
 		},
 		{
 			"id": "Combat Talent / Slinger",
-			"name": "Combat Talent / Slinger"
+			"name": "Talento de Combate / Hondero",
+			"description": "Si empuñas una honda...",
+			"abilities description 1": "<p>Cuando es lanzada con una honda, una simple piedra inflige daño mortal (2 de daño). Cuando <em>Entres en Liza</em> bombardeando a tu adversario con piedras de honda, inflige daño con un éxito total.</p>",
+			"abilities description 2": "<p>Cuando <em>Golpeas</em> lanzando piedras contra un enemigo que avanza, puedes elegir uno (antes de tirar).</p><ul><li>Retenlos: Mantén la iniciativa con un éxito aprcial, pero inflige sólo 1 de daño.</li><li>Dales duro: Inflige +1 de daño con un éxito, pero sufre -1 impulso.</li></ul>",
+			"abilities description 3": "<p>Cuando <em>Creas una Ventaja</em> preparando piedras de un material o calidad especial, añade +1. Después, gana +1 impulso o +1 de suministros con un éxito.</p>"
 		},
 		{
 			"id": "Combat Talent / Sunderer",
-			"name": "Combat Talent / Sunderer"
+			"name": "Combat Talent / Sunderer",
+			"description": "Si empuñas una honda...",
+			"abilities description 1": "<p>Cuando es lanzada con una honda, una simple piedra inflige daño mortal (2 de daño). Cuando <em>Entres en Liza</em> bombardeando a tu adversario con piedras de honda, inflige daño con un éxito total.</p>",
+			"abilities description 2": "<p>Cuando <em>Golpeas</em> lanzando piedras contra un enemigo que avanza, puedes elegir uno (antes de tirar).</p><ul><li>Retenlos: Mantén la iniciativa con un éxito parcial, pero inflige sólo 1 de daño.</li><li>Dales duro: Inflige +1 de daño con un éxito, pero sufre -1 impulso.</li></ul>",
+			"abilities description 3": "<p>Cuando <em>Creas una Ventaja</em> preparando piedras de un material o calidad especial, añade +1. Después, gana +1 impulso o +1 de suministros con un éxito.</p>"
 		},
 		{
 			"id": "Combat Talent / Swordmaster",
