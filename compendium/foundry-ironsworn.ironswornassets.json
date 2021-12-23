@@ -1,8 +1,9 @@
 {
-	"label": "Ironsworn Assets",
+	"label": "Ironsworn Recursos",
 	"mapping": {
 		"description": "data.description",
-		"field name": "data.fields.name",
+		"field 1 name": "data.fields.1.name",
+		"field 2 name": "data.fields.2.name",
 		"abilities description 1": "data.abilities.1.description",
 		"ability 1 enabler": "data.abilities.1.enable",
 		"abilities description 2": "data.abilities.2.description",
@@ -17,8 +18,8 @@
 			"id": "Combat Talent / Archer",
 			"name": "Talento de Combate / Arquero",
 			"description": "Si empuñas un arco...",
-			"abilities description 1": "<p>Cuando <em>Creas una Ventaja</em> tamándote tu tiempo para apuntar, elige tu acercamiento y añade +1.</p><ul><li>Confía en tus instintos: ((rollplus wits)), y gana +2 impulso en un éxito total.</li><li>Alinea tu disparo: ((rollplus edge)), y gana +1 impulso con un éxito.</li></ul>",
 			"ability 1 enabler": true,
+			"abilities description 1": "<p>[X] Cuando <em>Creas una Ventaja</em> tamándote tu tiempo para apuntar, elige tu acercamiento y añade +1.</p><ul><li>Confía en tus instintos: ((rollplus wits)), y gana +2 impulso en un éxito total.</li><li>Alinea tu disparo: ((rollplus edge)), y gana +1 impulso con un éxito.</li></ul>",
 			"abilities description 2": "<p>Una vez por combate, cuando <em>Golpeas</em> o <em>Contratacas</em>, ypuedes hacer disparos extra y sufrir -1 suministros (decide antes de tirar). Cuando lo haces, vuelve a tirar cualquier dado. Con un éxito, aplica +2 daño y gana +1 impulso.</p>",
 			"abilities description 3": "<p>Cuando te <em>Reabasteces</em> cazando, añade +1 y gana +1 impulso con un éxito.</p>"
 		},
@@ -26,15 +27,15 @@
 			"id": "Combat Talent / Berserker",
 			"name": "Talento de Combate / Berserker",
 			"description": "Si vas cubierto sólo por pieles de animales...",
-			"abilities description 1": "<p>Cuando <em>Creas una Ventaja</em> o <em>Persuades</em> personificando tu naturaleza salvaje, añade +1 y gana +1 impulso con un éxito.</p>",
+			"abilities description 1": "<p>[X] Cuando <em>Creas una Ventaja</em> o <em>Persuades</em> personificando tu naturaleza salvaje, añade +1 y gana +1 impulso con un éxito.</p>",
 			"abilities description 2": "<p>Cuando <em>Golpeas</em> o <em>Contratacas</em> desatando tu rabia (decide antes de tirar), inflige +1 daño con un éxito. Después, elige uno.</p><ul><li>Sobresfuerzo: <em>Soportar Daño</em> (1 daño).</li><li>Peridición: <em>Soportar el Estrés</em> (1 estrés).</li></ul>",
 			"abilities description 3": "<p>Cuando <em>Soportes Daño</em> en un combate, y tu salud está por encima de  0, puedes dejar que el dolor avive tu furia (decide antes de tirar). Si consigues un éxito total y decides aceptar el dolor, gana +impulso igual a tu restante de salud. Un éxito parcial cuenta como un fallo.</p>"
 		},
 		{
 			"id": "Combat Talent / Brawler",
-			"name": "Combat Talent / Luchador",
+			"name": "Talento de Combate / Luchador",
 			"description": "Si vas desarmado o combates con un arma no-letal...",
-			"abilities description 1": "<p>Cuando <em>Creas una Ventaja</em> ((rollplus iron)) participando en una pele cuerpo a cuerpo luchando (con puñetazos, patadas o agarres), añade +1. Si consigues un éxito, también puedes infligir 1 de daño.</p>",
+			"abilities description 1": "<p>[X] Cuando <em>Creas una Ventaja</em> ((rollplus iron)) participando en una pele cuerpo a cuerpo luchando (con puñetazos, patadas o agarres), añade +1. Si consigues un éxito, también puedes infligir 1 de daño.</p>",
 			"abilities description 2": "<p>Cuando usas un ataque desarmado o un arma simple para <em>Golpear</em> con intención de matar, añade +2 e inflige 2 de daño con un éxito (en vez de 1). Con un éxito parcial o un fallo, sufre -1 impulso (aparte de cualquier otra consecuencia del movimiento).</p>",
 			"abilities description 3": "<p>Cuando te <em>Enfrentas al Peligro</em> o <em>Contratacas</em> contra un ataque de lucha, añade +1 y gana +1 impulos con un éxito.</p>"
 		},
@@ -42,7 +43,7 @@
 			"id": "Combat Talent / Cutthroat",
 			"name": "Talento de Combate / Degollador",
 			"description": "Si empuñas una daga o un cuchillo...",
-			"abilities description 1": "<p>Cuando estés en una posición para <em>Golpear</em> a un adversario desprevenido, elige uno (antes de tirar).</p><ul><li>Añade +2 y gana +1 impulsocon un éxito.</li><li>Inflige +2 de daño con un éxito.</li></ul>",
+			"abilities description 1": "<p>[X] Cuando estés en una posición para <em>Golpear</em> a un adversario desprevenido, elige uno (antes de tirar).</p><ul><li>Añade +2 y gana +1 impulsocon un éxito.</li><li>Inflige +2 de daño con un éxito.</li></ul>",
 			"abilities description 2": "<p>Cuando <em>Persuades</em> a alguien con la punta de tu filo, o cuando confías en tu filo al <em>Enfrentar el Peligro</em>, añade +1.</p>",
 			"abilities description 3": "<p>una vez por combate, cuando <em>Creas una Ventaja</em> ((rollplus shadow)) llevando a cabo una finta o creando una confusión, vuelve a tirar cualquier dado y gana +1 impulso con un éxito.</p>"
 		},
@@ -50,14 +51,14 @@
 			"id": "Combat Talent / Duelist",
 			"name": "Talento de Combate / Duelista",
 			"description": "Si empuñas una arma de filo en cada mano...",
-			"abilities description 1": "<p>Cuando <em>Golpeas</em> o <em>Contratacas</em>, puedes añadir +2. Si lo haces (decide antes de tirar), inflige +1 de daño con un éxito total y cuenta un éxito parcial como un fallo.</p>",
+			"abilities description 1": "<p>[X] Cuando <em>Golpeas</em> o <em>Contratacas</em>, puedes añadir +2. Si lo haces (decide antes de tirar), inflige +1 de daño con un éxito total y cuenta un éxito parcial como un fallo.</p>",
 			"abilities description 2": "<p>Una vez por combate, cuando <em>Creas una Ventaja</em> ((rollplus edge)) haciendo una atrevida muestra de tu habilidad de combate, puedes volver a tirar cualquier dado.</p>",
 			"abilities description 3": "<p>Cuando <em>Trazas el Círculo</em>, elige uno (antes de tirar).</p><ul><li>Añade +2.</li><li>Gana +2 impulso con un éxito.</li></ul>"
 		},
 		{
 			"id": "Combat Talent / Fletcher",
 			"name": "Talento de Combate / Flechero",
-			"abilities description 1": "<p>Cuando <em>Creas una Ventaja</em> creando flechas de alta calidad, añade +1. Después, gana +1 de sumnistros o +1 impulso con un éxito.</p>",
+			"abilities description 1": "<p>[X] Cuando <em>Creas una Ventaja</em> creando flechas de alta calidad, añade +1. Después, gana +1 de sumnistros o +1 impulso con un éxito.</p>",
 			"abilities description 2": "<p>Cuando te <em>Reabasteces</em> recuperando o recogiendo flechas después de un combate, añade +2.</p>",
 			"abilities description 3": "<p>Cuando fabricas una única flecha diseñada para un adversario específico, imagina el proceso y los amteriales, y ((rollplus wits)). Con un éxito total, haz ambos. Con un éxtio parcial, elige uno.</p><ul><li>Buscadora: Cuando el arquero usa esta flecha para <em>Golpear</em> o <em>Contratacar</em> a un enemigo, vuelve a tirar cualquier dado (una vez sólo).</li><li>Devastadora: Cuando un arquero usa esta flecha para infligir daño a su adversario, inflige +1d6 de daño (una vez sólo).</li></ul>"
 		},
@@ -65,7 +66,7 @@
 			"id": "Combat Talent / Ironclad",
 			"name": "Talento de Combate / Acorazado",
 			"description": "Si llevas armadura...",
-			"abilities description 1": "<p>Cuando equipes o ajustes tu armadura, elige uno.</p><ul><li>Armadura ligera: Cuando <em>Soportes Daño</em> en un combate, añade +1 y gana +1 impulos con un éxito.</li><li>Preparado para la Guerra: Anota sobrecargado. Cuando <em>Soportes Daño</em> en un combate, añade +2 y gane +1 impulso con un éxito.</li></ul>",
+			"abilities description 1": "<p>[X] Cuando equipes o ajustes tu armadura, elige uno.</p><ul><li>Armadura ligera: Cuando <em>Soportes Daño</em> en un combate, añade +1 y gana +1 impulos con un éxito.</li><li>Preparado para la Guerra: Anota sobrecargado. Cuando <em>Soportes Daño</em> en un combate, añade +2 y gane +1 impulso con un éxito.</li></ul>",
 			"abilities description 2": "<p>Cuando <em>Contratacas</em> mientras vayas preparado para la guerra, añade +1.</p>",
 			"abilities description 3": "<p>Cuando <em>Persuadas</em> en una situación donde el poderíp de las armas es una factor a tener en cuenta, añade +2.</p>",
 			"option 1 name": "Armadura ligera",
@@ -75,7 +76,7 @@
 			"id": "Combat Talent / Long-Arm",
 			"name": "Talento de Combate / Arma larga",
 			"description": "Si empuñas un bastón...",
-			"abilities description 1": "<p>En tus manos, un humilde bastón es un arma letal (2 de daño). Cuando sin embargo lo uses como arma simple (1 de daño), puedes <em>Golpear</em> o <em>Contratacar</em> ((rollplus edge)) (en vez de hierro). Si lo haces, añade +1 y gana +1 de impulso con un éxito.</p>",
+			"abilities description 1": "<p>[X] En tus manos, un humilde bastón es un arma letal (2 de daño). Cuando sin embargo lo uses como arma simple (1 de daño), puedes <em>Golpear</em> o <em>Contratacar</em> ((rollplus edge)) (en vez de hierro). Si lo haces, añade +1 y gana +1 de impulso con un éxito.</p>",
 			"abilities description 2": "<p>Cuando <em>Creas una Ventaja</em> ((rollplus edge)) usando tu bastón para desarmar, hacer tropezar, empujar, o aturdir a tu adversario, añade +1 y gana +1 impulso con un éxito.</p>",
 			"abilities description 3": "<p>Cuando <em>Viajes</em> y consigas un éxito total, o acompañas a un aliado que consigue un éxito total con ese movimiento, tu bastón provee soporte y confort en tus viajes; gana +1 impulso.</p>"
 		},
@@ -83,7 +84,7 @@
 			"id": "Combat Talent / Shield-Bearer",
 			"name": "Talento de Combate / Escudado",
 			"description": "Si empuñas un escudo...",
-			"abilities description 1": "<p>Cuando te <em>Enfrentas al Peligro</em> usando tu escudo para cubrirte, añade +1. Cuando <em>Contratacas</em> cuerpo a cuerpo, gana +1 impulso con un éxito total.</p>",
+			"abilities description 1": "<p>[X] Cuando te <em>Enfrentas al Peligro</em> usando tu escudo para cubrirte, añade +1. Cuando <em>Contratacas</em> cuerpo a cuerpo, gana +1 impulso con un éxito total.</p>",
 			"abilities description 2": "<p>Cuando pintes tu escudo con un símbolo de importancia para ti, imagina que es lo que creas. Después, si <em>Soportas Estrés</em> cuando te enfrentas a un adverasrio temible, añade +1 y gana +1 impulos con un éxito.</p>",
 			"abilities description 3": "<p>Cuando te veas forzado a <em>Soportar Daño</em> en un combate, puedes sacrificar tu escudo e igonrar todo el daño. Si lo haces, el escudo es queda destrozado. Una vez por combate, puedes tomar la iniciativa cuando sacrificas tu escudo para evadir daño.</p>"
 		},
@@ -91,7 +92,7 @@
 			"id": "Combat Talent / Skirmisher",
 			"name": "Talento de Combate / Hostigador",
 			"description": "Si empuñas una lanza...",
-			"abilities description 1": "<p>Cuando te <em>Enfrentas al Peligro</em> manteniendo a tu adversario a raya usando el alcance de tu lanza, ((rollplus iron)) o ((rollplus edge)). Si consigues un éxito, peudes...</p><ul><li>Hierro: <em>Golpear</em> (si tienes la iniciativa) o <em>Contratacar</em> ahora, y añade +1.</li><li>Filo: Gana +1 impulso.</li></ul>",
+			"abilities description 1": "<p>[X] Cuando te <em>Enfrentas al Peligro</em> manteniendo a tu adversario a raya usando el alcance de tu lanza, ((rollplus iron)) o ((rollplus edge)). Si consigues un éxito, peudes...</p><ul><li>Hierro: <em>Golpear</em> (si tienes la iniciativa) o <em>Contratacar</em> ahora, y añade +1.</li><li>Filo: Gana +1 impulso.</li></ul>",
 			"abilities description 2": "<p>Cuando <em>Golpeas</em> en combate cuerpo a cuerpo, puede intentar lanzar tu lanza (decide antes de tirar). Si lo haces, añade +1 e inflige +2 de daño con un éxito. Si consigues un éxito y el combate continua, te <em>Enfrentas al Peligro</em> ((rollplus iron)) para recuperar tu lanza.</p>",
 			"abilities description 3": "<p>Cuando <em>Creas una Ventaja</em> empuñando tu lanza contra un enemigo que carga contra ti, añade +1 y gana +1 impulso con un éxito.</p>"
 		},
@@ -99,239 +100,345 @@
 			"id": "Combat Talent / Slinger",
 			"name": "Talento de Combate / Hondero",
 			"description": "Si empuñas una honda...",
-			"abilities description 1": "<p>Cuando es lanzada con una honda, una simple piedra inflige daño mortal (2 de daño). Cuando <em>Entres en Liza</em> bombardeando a tu adversario con piedras de honda, inflige daño con un éxito total.</p>",
+			"abilities description 1": "<p>[X] Cuando es lanzada con una honda, una simple piedra inflige daño mortal (2 de daño). Cuando <em>Entres en Liza</em> bombardeando a tu adversario con piedras de honda, inflige daño con un éxito total.</p>",
 			"abilities description 2": "<p>Cuando <em>Golpeas</em> lanzando piedras contra un enemigo que avanza, puedes elegir uno (antes de tirar).</p><ul><li>Retenlos: Mantén la iniciativa con un éxito aprcial, pero inflige sólo 1 de daño.</li><li>Dales duro: Inflige +1 de daño con un éxito, pero sufre -1 impulso.</li></ul>",
 			"abilities description 3": "<p>Cuando <em>Creas una Ventaja</em> preparando piedras de un material o calidad especial, añade +1. Después, gana +1 impulso o +1 de suministros con un éxito.</p>"
 		},
 		{
 			"id": "Combat Talent / Sunderer",
-			"name": "Combat Talent / Sunderer",
-			"description": "Si empuñas una honda...",
-			"abilities description 1": "<p>Cuando es lanzada con una honda, una simple piedra inflige daño mortal (2 de daño). Cuando <em>Entres en Liza</em> bombardeando a tu adversario con piedras de honda, inflige daño con un éxito total.</p>",
-			"abilities description 2": "<p>Cuando <em>Golpeas</em> lanzando piedras contra un enemigo que avanza, puedes elegir uno (antes de tirar).</p><ul><li>Retenlos: Mantén la iniciativa con un éxito parcial, pero inflige sólo 1 de daño.</li><li>Dales duro: Inflige +1 de daño con un éxito, pero sufre -1 impulso.</li></ul>",
-			"abilities description 3": "<p>Cuando <em>Creas una Ventaja</em> preparando piedras de un material o calidad especial, añade +1. Después, gana +1 impulso o +1 de suministros con un éxito.</p>"
+			"name": "Talento de Combate / Cercenador",
+			"description": "Si empuñas un hacha...",
+			"abilities description 1": "<p>[X] Cuando <em>Golpeas</em> o <em>Contratacas</em> en combate cuerpo a cuerpo, puedes sufrir -1 impulso e infligir +1 de daño con un éxito (decide antes de tirar).</p>",
+			"abilities description 2": "<p>Cuando tienes el hacha en tus manos, y usas la promesa de violencia para <em>Persuadir</em> o <em>Crear una Ventaja</em>, añade +1 y gana +1 impulso con un éxito.</p>",
+			"abilities description 3": "<p>Cuando hagas un tributo a un adversario caido (formidable or mayor) tallando una runa en el manog de tu hacha, ((rollplus heart)). Con un éxito total, infliges +1d6 de daño (una sola vez) cuando <em>Golpeas</em> or <em>Contratacas</em>. Con un éxito parcial, lo mismo, pero esta muerte te pesa; <em>Soporta Estrés</em> (2 estrés).</p>"
 		},
 		{
 			"id": "Combat Talent / Swordmaster",
-			"name": "Combat Talent / Swordmaster"
+			"name": "Talento de Combate / Espadachín",
+			"description": "Si empuñas una espada...",
+			"abilities description 1": "<p>[X] Cuando <em>Golpeas</em> o <em>Contratacas</em> y quemas impulso para mejorar tu resultado, inflige +2 de daño. Si el combate continúa, añade +1 en tu próximo movimiento.</p>",
+			"abilities description 2": "<p>Cuando <em>Contratacas</em> y consigues un éxito total, añade +1 si immediatamente continúas con un movimiento de <em>Golpear</em>.</p>",
+			"abilities description 3": "<p>Cuando <em>Juras por el Hierro</em> arrodillándote y cogiendo la hoja de tu espada, añade +1 y gana +1 impulso con un éxito. Si dejas que el filo de la hoja corte tus manos, <em>Soporta Daño</em> (1 de daño) a cambio de +1 impulso adicional con un éxito.</p>"
 		},
 		{
 			"id": "Combat Talent / Thunder-Bringer",
-			"name": "Combat Talent / Thunder-Bringer"
+			"name": "Talento de Combate / Thunder-Bringer",
+			"description": "Si empuñas un martillo imponente...",
+			"abilities description 1": "<p>[X] Cuando te <em>Enfrentas al Peligro</em>, <em>Creas una Ventaja</em>, o <em>Persuades</em> golpeando o rompiendo un objeto inanimado, añade +1 y gana +1 impulso con un éxito.</p>",
+			"abilities description 2": "<p>Cuando <em>Golpeas</em> a un adversario para tirarlo, aturdirlo o que pierdan el equilibrio, inflige 1 de daño (en vez de 2) y gana +2 impulso con un éxito. Con un éxito total, también creas una oportunidad y añades +1 en tu próximo movimiento.</p>",
+			"abilities description 3": "<p>Cuando <em>Cambies las Tornas</em>, puedes <em>Golpeas</em> con toda la furia y poder que puedas reunir. Si lo haces (decide antes de tirar), puedes volver a tirar cualquier dado e infliges +2 de daño con un éxito total, pero consideras un éxito parcial como un fallo.</p>"
 		},
 		{
 			"id": "Companion / Cave Lion",
-			"name": "Companion / Cave Lion"
+			"name": "Compañero / León de las Cavernas",
+			"description": "Tu gato caza sus propias presas.",
+			"field 1 name": "Nombre",
+			"abilities description 1": "<p><strong>Ávido:</strong> Cuando tu gato persigue a caza mayor, puedes <em>Reabastecerte</em> con ((rollplus edge)) (en vez de ((rollplus wits))). Si lo haces, gana +1 de suministros o +1 impulso con un éxito total.</p>",
+			"abilities description 2": "<p><strong>Ineludible:</strong> Cuando <em>Entras en Liza</em> o <em>Golpeas</em> mandando a tu gato atacar, ((rollplus edge)). Con un éxito, gana +2 impulso.</p>",
+			"abilities description 3": "<p><strong>Protector:</strong> Cuando <em>Acampes</em>, tu gato se mantiene alerta de cualquier peligro. Si tu o culaquier aliado decide relajarse, gana +1 de entereza. Si te concentras, gana +1 impulso.</p>",
+			"track name": "Salud"
 		},
 		{
 			"id": "Companion / Giant Spider",
-			"name": "Companion / Giant Spider"
+			"name": "Compañero / Araña Gigante",
+			"description": "Tu araña revela secretos.",
+			"field 1 name": "Nombre",
+			"abilities description 1": "<p><strong>Discreta:</strong> Cuando <em>Creas una Ventaja</em> mandando a tu araña para explorar un lugar, añade +1 y gana +1 impulso con un éxito.</p>",
+			"abilities description 2": "<p><strong>Penetra-Almas:</strong> Puedes <em>Enfrentárte al Peligro</em> ((rollplus shadow)) mandando a tu araña para estudiar a alguiene n secreto. Con un éxito, la araña vuelve para revelar los miedos mejor guardados del objetivo mediante un refeljo en sus vidriosos ojos. Usa esto para <em>Reunir Información</em> y volver a tirar cualquier dado.</p>",
+			"abilities description 3": "<p><strong>Enredadora:</strong> Cuando tu araña pone una trampa, añade +1 mientras <em>Entras en Liza</em> ((rollplus shadow)). Con un éxito total, también infliges 2 de daño.</p>",
+			"track name": "Salud"
 		},
 		{
 			"id": "Companion / Hawk",
-			"name": "Companion / Hawk"
+			"name": "Compañero / Halcón",
+			"description": "Tu halcón puede ayudarte cuando esté en vuelo.",
+			"field 1 name": "Nombre",
+			"abilities description 1": "<p><strong>Vista lejana:</strong> Cuando <em>Viajes</em>, o cuando te <em>Reabastezcas</em> cazando pequeños animales, añade +1.</p>",
+			"abilities description 2": "<p><strong>Feroz:</strong> Cuando <em>Creas una Ventaja</em> ((rollplus edge)) usando tu halcón para acosa o distraer a tus adversarios, añade +1 y gana +1 impulso con un éxito.</p>",
+			"abilities description 3": "<p><strong>Vigilante:</strong> Cuando te <em>Enfrentas al Peligro</em> ((rollplus wits)) para detectar un peligro aproximándose, o cuando <em>entras en Liza</em> ((rollplus wits)) contra una emboscada, añade +2.</p>",
+			"track name": "Salud"
 		},
 		{
 			"id": "Companion / Horse",
-			"name": "Companion / Horse"
+			"name": "Compañero / Caballo",
+			"description": "Tu y tu caballo cabalgáis como uno.",
+			"field 1 name": "Nombre",
+			"abilities description 1": "<p><strong>Ágil:</strong> Cuando te <em>Enfrentas al Peligro</em> ((rollplus edge)) usando la velicidad y gracia de tu caballo, o cuando <em>Viajas</em>, añade +1.</p>",
+			"abilities description 2": "<p><strong>Intrépido:</strong> Cuando <em>Entras en Liza</em> o <em>Creas una Ventaja</em> ((rollplus heart)) cargando en combate, añade +1 y gana +1 impulso con un éxito.</p>",
+			"abilities description 3": "<p><strong>Poderoso:</strong> Cuando <em>Golpeas</em> o <em>Contratacas</em> en combate cuerpo a cuerpo mientras estás montando tu caballo, añade +1 e inflige +1 de daño con un éxito.</p>",
+			"track name": "Salud"
 		},
 		{
 			"id": "Companion / Hound",
-			"name": "Companion / Hound"
+			"name": "Compañero / Sabueso",
+			"description": "Tu sabueso es tu fiel compañero.",
+			"field 1 name": "Nombre",
+			"abilities description 1": "<p><strong>Agudo:</strong> Cuando <em>Reunes Información</em> usando los excelentes sentidos de tu sabueso para rastrear a tu presa o investigar una escena, añade +1 y gana +1 impulso con un éxito.</p>",
+			"abilities description 2": "<p><strong>Feroz:</strong> Cuando <em>Golpeas</em> o <em>Contratacas</em> al lado de tu sabueso y consigues un éxito, inflige +1 de daño o gana +1 impulso.</p>",
+			"abilities description 3": "<p><strong>Leal:</strong> Cuando <em>Soportas Estrés</em> en compañia de tu sabueso, añade +1.</p>",
+			"track name": "Salud"
 		},
 		{
 			"id": "Companion / Kindred",
-			"name": "Companion / Kindred"
+			"name": "Compañero / Familiar",
+			"description": "Tu amigo permanece a tu lado.",
+			"field 1 name": "Nombre",
+			"abilities description 1": "<p><strong>Experto:</strong> Cuando haces un movimiento fuera de combate ayudándote de la experiencia de tu compañero, añade +1.</p>",
+			"abilities description 2": "<p><strong>Portector:</strong> Cuando <em>Golpeas</em> o <em>Batallas</em> con tu compañero a tu lado, o cuando te <em>Enfrentas al Peligro</em> contra un ataque permaneciendo juntos, añade +1.</p>",
+			"abilities description 3": "<p><strong>Unidos:</strong> Una vez hayas marcado un vínculo con tu compañero, añade +1 cuando <em>Afrontas la Desolación</em> en su presencia.</p>",
+			"track name": "Salud"
 		},
 		{
 			"id": "Companion / Mammoth",
-			"name": "Companion / Mammoth"
+			"name": "Compañero / Mamut",
+			"description": "Tu mamut camina con paso firme.",
+			"field 1 name": "Nombre",
+			"abilities description 1": "<p><strong>Enorme:</strong> Cuando tu mamut va contigo mientras <em>Viajas</em>, puedes añadir +2 pero sufrir -1 impulso (decide antes de tirar).</p>",
+			"abilities description 2": "<p><strong>Bestia de carga:</strong> cuando hagas un movimiento que te haga  ((rollplus supply)), puedes tirar +la salud de tu mamut en cambio.</p>",
+			"abilities description 3": "<p><strong>Aplastante:</strong> Cuando <em>Golpeas</em> o <em>Contratacas</em> montando tu mamut contra un grupo de adversarios, añade +1 e inflige +1 de daño con un éxito.</p>",
+			"track name": "Salud"
 		},
 		{
 			"id": "Companion / Owl",
-			"name": "Companion / Owl"
+			"name": "Compañero / Búho",
+			"description": "Tu búho vuela a través de la oscuridad.",
+			"field 1 name": "Nombre",
+			"abilities description 1": "<p><strong>Nocturno:</strong> Si te <em>Reabasteces</em> durante la noche mandando a tu búho de caza, gana +2 impulso con un éxito. Cuando <em>Entras en Liza</em> ((rollplus wits)) contra una emboscada en la oscuridad, añade +1 y gana +1 impulso con un éxito.</p>",
+			"abilities description 2": "<p><strong>Sabio:</strong> Cuando aprovechas el conocimiento secreto de tu búho para realizar un ritual, añade +1 o gana +1 impulso con un éxito (decide antes de tirar).</p>",
+			"abilities description 3": "<p><strong>Encarnación:</strong> Cuando <em>Afrontas la Muerte</em>, gana la salud de tu búho como +impulso antes de la tirada.</p>",
+			"track name": "Salud"
 		},
 		{
 			"id": "Companion / Raven",
-			"name": "Companion / Raven"
+			"name": "Compañero / Cuervo",
+			"description": "Tu cuervo escucha tu llamada.",
+			"field 1 name": "Nombre",
+			"abilities description 1": "<p><strong>Astuto:</strong> Cuando <em>Creas una ventaja</em> o te <em>Enfrentas al Peligro</em> ((rollplus shadow)) usando tu cuervo para realizar una aritmaña (como crear una distracción o robando un pequeño objeto) añade +1 y gana +1 impulso con un éxito.</p>",
+			"abilities description 2": "<p><strong>Cómplice:</strong> Cuando <em>Afrontas la Muerte</em>, añade +2 y gana +1 impulso con un éxito.</p>",
+			"abilities description 3": "<p><strong>Diligente:</strong> Cuando tu cuervo lleva un mensaje para ti, puedes <em>Crear una ventaja</em>, <em>Reunir Información</em>, o <em>Persuadir</em> a distancia.</p>",
+			"track name": "Salud"
 		},
 		{
 			"id": "Companion / Young Wyvern",
-			"name": "Companion / Young Wyvern"
+			"name": "Compañero / Sierpe Jóven",
+			"description": "Tu sierpe no te devorará. Por ahora.",
+			"field 1 name": "Nombre",
+			"abilities description 1": "<p><strong>Isaciable:</strong> Cuando <em>Viajas</em> y consigues un éxito, puedes sufrir -1 de suministros a cambio de +2 impulso.</p>",
+			"abilities description 2": "<p><strong>Indomable:</strong> Cuando haces el movimiento de<em>Tu Compañero Sufre Daño</em> para tu sierpe, añade +2 y gana +1 impulso con un éxito.</p>",
+			"abilities description 3": "<p><strong>Salvaje:</strong> Cuando <em>Golpeas</em> mandando a tu sierpe atacar, ((rollplus heart)). Tu sierpe inflige 3 de daño con un éxito.</p>",
+			"track name": "Salud"
 		},
 		{
 			"id": "Path / Alchemist",
-			"name": "Path / Alchemist",
-			"description": ""
+			"name": "Trayectoria / Alchemist",
+			"abilities description 1": "<p>[X] Cuando creas un elixir, elige un efecto: Habilidad (filo), audacia (corazón), vigor (hierro), picardía (sombra), or claridad (mente). Después, sufre -1 de suministros y ((rollplus wits)). Con un éxito total, creas un única dósis. El personaje que consuma el elixir debe <em>Afrontar el Peligro</em> ((rollplus iron)) y conseguir un éxito, tras el cual añaden +1 cuando hagan movimientos con la característica asociada hasta que su vida, exntereza, o impulso caigan por debajo de +1 . Con un éxito parcial, lo mismo, pero sufres -1 de suministros adicional para crearlo.</p>",
+			"abilities description 2": "<p>Como el anterior, y puedes elegir dos efectos para una dósis única, o crear dos dosis del mismo efecto.</p>",
+			"abilities description 3": "<p>Cuando preapres un elixir, añade +1 y gana +1 impulso con un éxito.</p>"
 		},
 		{
 			"id": "Path / Animal Kin",
-			"name": "Path / Animal Kin",
-			"description": ""
+			"name": "Trayectoria / Amigo Animal",
+			"abilities description 1": "<p>[X] Cuando hagas un movimiento para pacificar, calmar, controlar, ayudar o repeler un animal (o un compañero animal o bestia), añade +1 y gana +1 impulso con un éxito.</p>",
+			"abilities description 2": "<p>Puedes añadir o mejorar un recurso de compañero animal o bestia por 1EXP menos. Una vez que hayas marcado todas sus capacidad, puedes <em>Forjas un Vínculo</em> con ellos y ganar un exito total. Cunado lo hagas, marca un vínculo dos veces y gana 1EXP.</p>",
+			"abilities description 3": "<p>una vez por combate, cuando aprovehces la habilidad de tu compañero animal o bestia para hacer un movimiento, vuelve a tirar cualquier dado. Con un éxito, gana +1 impulso.</p>"
 		},
 		{
 			"id": "Path / Banner-Sworn",
-			"name": "Path / Banner-Sworn"
+			"name": "Trayectoria / Juramento de Estandarte",
+			"description": "Una vez que hayas marcado un vínculo con un líder o una facción...",
+			"field 1 name": "Nombre",
+			"abilities description 1": "<p>[X] Cuando <em>Juras por el Hierro</em> para servir a tu líder o facción en una misión, puedes volver a tirar cualquier dado. Cuando <em>Cumples tu Juramento</em> y anotas experiencia, gana +1 EXP.</p>",
+			"abilities description 2": "<p>Cuando <em>Pases tiemp en una Comunidad</em> o <em>Acampes</em> en compañía de tus allegados del mismo estandarte, añade +1 y gana +1 impulso con un éxito.</p>",
+			"abilities description 3": "<p>Cuando <em>Entres en Liza</em> llevando tu estandarte, añade +1 y gana +1 impulso con un éxito. Cuando quemas impulso mientras llevas tu estandarte en combate, gana +1 impulso después de reiniciarlo.</p>"
 		},
 		{
 			"id": "Path / Battle-Scarred",
-			"name": "Path / Battle-Scarred"
+			"name": "Trayectoria / Battle-Scarred",
+			"description": "Una vez que te hayan mutilado...",
+			"abilities description 1": "<p>Enfocas tus energías: Reduce tu filo o hierro en 1 y añade +2 a mente o corazón, o +1 a cada (hasta un máximo de +4).</p>",
+			"abilities description 2": "<p>Superas tus limitaciones: Reduce tu máximo de salud en 1. Mutilado no cuenta como debilidad, y no reduce tu impulso máximo o valor inicial. Cuando <em>Soportas Estrés</em> ((rollplus heart)), gana +1 impulso con un éxito total.</p>",
+			"abilities description 3": "<p>Ya has contemplado a la muerte previamente: Cuando estáas a 0 de salud y <em>Soportas Daño</em>, puedes ((rollplus wits)) o ((rollplus heart)) (en vez de ((rollplus health)) o ((rollplus iron))). Si lo haces, gana +1 impulso con un éxito.</p>"
 		},
 		{
 			"id": "Path / Blade-Bound",
-			"name": "Path / Blade-Bound"
+			"name": "Trayectoria / Vínculo de Espada",
+			"description": "Una vez que hayas marcado un vínculo con una espada familiar, un arma con consciencia imbuida con el espíritu de un ancestro tuyo...",
+			"field 1 name": "Nombre",
+			"abilities description 1": "<p>Cuando <em>Entres en Liza</em> o <em>Dibujes el Círculo</em> empuñando tu espada familiar, añade +1 y gana +1 impulso con un éxito.</p>",
+			"abilities description 2": "<p>Cuando <em>Recabas Información</em> escuchando a los susurros de tu espada familiar, añade +1 y gana +2 impulso con un éxito. Después, <em>Soporta Estrés</em> (2 estrés).</p>",
+			"abilities description 3": "<p>Cuando <em>Golpeas</em> con tu espada familair para infligir daño salvaje (decide antes de tirar), añade +1 e inflige +2 de daño con un éxito. Después, <em>Soporta Estrés</em> (2 estrés).</p>"
 		},
 		{
 			"id": "Path / Bonded",
-			"name": "Path / Bonded",
-			"description": ""
+			"name": "Trayectoria / Bonded",
+			"abilities description 1": "<p>[X] Cuando haces un movimiento que te da una bonificación por compartir un vínculo, añade +1 adicional.</p>",
+			"abilities description 2": "<p>Cuando rellenas por compelto una caja de progreso en tubarra de vínculos, imagina lo que tus realciones te han enseñado. Después, gana 1EXP y +2 impulso.</p>",
+			"abilities description 3": "<p>Cuando haces un movimiento en un momento crucial y obtienes un fallo, puedes aggararte a recuerdos y de tus vínculos familiares para ganar valor o ánimo. Si lo haces, vuelve a tirar cualquier dado. Con otro fallo, aparte del resultado del movimiento, debes marcar Conmocionado o Corompido. Si ambas debilidades ya están marcadas, <em>Afronta la desolación</em>.</p>"
 		},
 		{
 			"id": "Path / Commander",
-			"name": "Path / Commander",
-			"description": ""
+			"name": "Trayectoria / Comandante",
+			"abilities description 1": "<p>[X] Lideras una Compañia de +4 de fuerza. Tira +fuerza cuando comandes a tu Compañía para <em>enfrentárte al Peligro</em>, <em>Crear una Ventaja</em>, <em>Persuadir</em>, o <em>Batallar</em>. Cuando te enfrentes al resultado negativo de cualquier movimiento, puedes sufrir -1 de fuerza como el coste. Cuando <em>Acampes</em> o <em>Pases Tiempo en una Comunidad</em> y consigas un éxito, gana +1 de fuerza. Cuando esté a 0 de fuerza, este recurso cuenta como una debilidad.</p>",
+			"abilities description 2": "<p>Puedes despachar exploradores de tu Compañía para <em>Recabar Información</em> o <em>Reabastecerte</em>; si lo haces, tira +fuerza.</p>",
+			"abilities description 3": "<p>Una vez que hayas <em>Forjado un Vínculo</em> con tu Compañía, gana +1 impulso con un éxito cunado aproveches la habilidad de la Compañía.</p>"
 		},
 		{
 			"id": "Path / Dancer",
-			"name": "Path / Dancer",
-			"description": ""
+			"name": "Trayectoria / Bailarín",
+			"abilities description 1": "<p>[X] Cuando <em>Creas una Ventaja</em> ((rollplus edge)) bailando para una audiencia, añade +1 y gana +2 impulso con un éxito. Con un éxito total, también añade +2 (sólo una vez) si haces un movimiento para interactuar con alguien de los espectadores.</p>",
+			"abilities description 2": "<p>Cuando te <em>Enfrentas al Peligro</em> ((rollplus edge)) en un combate evandiendo con agilidad los ataques de tu adversario, añade +1 y gana +1 impulso con un éxito.</p>",
+			"abilities description 3": "<p>Cuando tu o un aliado hace un movimiento de progreso y consigue un éxito, puedes realizar un baile para conmemorar el evento. Si lo haces, ((rollplus edge)). Con un éxito total, tu y cada uno de tus aliados gana +2 impulso y +1 de entereza. Con un éxito parcial, tu ganas +1 impulso o +1 de entereza, pero tus aliados permanecen impasibles.</p>"
 		},
 		{
 			"id": "Path / Devotant",
-			"name": "Path / Devotant",
-			"description": ""
+			"name": "Trayectoria / Devoto",
+			"field 1 name": "Nombre del dios(a)",
+			"field 2 name": "Característica",
+			"abilities description 1": "<p>[X] Cuando haces tus rezos diarios, puedes <em>Crear una Ventaja</em> pidiendo a tu dios(a) una benidición. Si lo haces, tira +característica de tu dios(a). Con un éxito, gana +2 impulso.</p>",
+			"abilities description 2": "<p>Cuando <em>Jures por el Hierro</em> para servir a tu dios(a) en una misión divina, puedes tirar +característica de tu dios(a) y volver a tirar cualquier dado. Cuando <em>Cumplas tu Juramento</em> y anotes experiencia, gana +1 EXP.</p>",
+			"abilities description 3": "<p>Cuando <em>Pases Tiempo en una Comunidad</em> compartiendo la plabra de tu dios(a), puedes tirar +característica de tu dios(a). Si lo haces, gana +1 impulso con un éxito.</p>"
 		},
 		{
 			"id": "Path / Empowered",
-			"name": "Path / Empowered",
-			"description": ""
+			"name": "Trayectoria / Empoderado",
+			"field 1 name": "Título/Linaje",
+			"abilities description 1": "<p>[X] Cuando <em>Pases Tiempo en una Comunidad</em> y obtengas un éxito parcial o un fallo, puedes reclamar los derechos de hospitalidad garantizados por tu título o linaje. Si lo haces, vuelve a tirar todos los dados y añade +1. Con un fallo, eres rechazado, y tu arrogancia causa nuevos problemas de importancia.</p>",
+			"abilities description 2": "<p>Cuando usas tu título o linaje para <em>Persuadir</em>, añade +1 y gana +1 impulso con un éxito.</p>",
+			"abilities description 3": "<p>Cuando renuncias a tu título o linaje y <em>Forjas un Vínculo</em> como igual, o cuando <em>Juras por el Hierro</em> para servir a alguien de menor alcurnia, añade +1 y gana +1 impulso or +1 de entereza con un éxito.</p>"
 		},
 		{
 			"id": "Path / Fated",
-			"name": "Path / Fated",
-			"description": ""
+			"name": "Trayectoria / Predestinado",
+			"abilities description 1": "<p>[X] Cuando <em>Afrontas la Muerte</em> o <em>Afrontas la Desolación</em> mientras que tu juramento épico del trasfondo no se haya cumplido, todavía no es tu hora. en vez de tirar, pudes coger un éxito total automático. Si lo haces, este recurso cuenta como una debilidad (y pierdes esta protección) hasta tu próximo <em>Alcanzar un hito</em> en tu juramento del trasfondo.</p>",
+			"abilities description 2": "<p>Cuando <em>Alcances un hito</em> con tu juramento del trasfondo, gana +2 impulso o +1 de entereza.</p>",
+			"abilities description 3": "<p>Por cada dos cajas de progreso completadas en tu juramento de trasfondo, gana 1 EXP. Cuando <em>Cumplas tu Juramento</em>, tu destino está en juego. Imagina tu sacrificio final y vuelve a tirar cualquier dado.</p>"
 		},
 		{
 			"id": "Path / Fortune Hunter",
-			"name": "Path / Fortune Hunter",
-			"description": ""
+			"name": "Trayectoria / Cazafortunas",
+			"abilities description 1": "<p>[X] Cuando <em>Jures por el Hierro</em> a alguien bajo la premisa de pago, añade +1 y pon un marca especial a esta misión. Cuando <em>Cumplas tu Juramento</em> exitosamente, gana +riqueza igual al nivel de la misión. Si aprovechas tu riqueza haciendo un movimiento donde los recursos juegan tienen un peso, añade +riqueza y sufre -1 de riqueza.</p>",
+			"abilities description 2": "<p>En estés en una comunidad o comerciando, puedes sufrir -1 de riqueza y ganar +2 de suministros.</p>",
+			"abilities description 3": "<p>Cuando te <em>Rebasteces</em> rebuscando o saqueando, y consigues un éxito total con dos números iguales, puedes imaginarte como encuentras un objeto de valor. Si lo haces, gana +1 de suministros (en vez de +2) y +1 riqueza.</p>",
+			"track name": "Riqueza"
 		},
 		{
 			"id": "Path / Herbalist",
-			"name": "Path / Herbalist",
-			"description": ""
+			"name": "Trayectoria / Herbalist",
+			"abilities description 1": "<p>[X] Cuando intentes <em>Curar</em> usando remedios de hierbas, y tienes al menos +1 de suministros, elige uno (decide antes de tirar).</p><ul><li>Añade +2.</li><li>Con un éxto, ganas o curas +1 de salud adicional.</li></ul>",
+			"abilities description 2": "<p>Cuando <em>Curas</em> a un compañero, aliado, u otro personaje, y consigues un éxito, gana +1 de entereza o +1 impulso.</p>",
+			"abilities description 3": "<p>Cuando <em>acampes</em> y eliges la opción de compartir, pudes cocinar una cmoida regenerativa. Si lo haces, tu y tus compañeros ganáis +1 de salud. Cualquier aliado que decide compartir también gana +1 de salud, y no sufre -suministros.</p>"
 		},
 		{
 			"id": "Path / Honorbound",
-			"name": "Path / Honorbound",
+			"name": "Trayectoria / Honorbound",
 			"description": ""
 		},
 		{
 			"id": "Path / Improviser",
-			"name": "Path / Improviser",
+			"name": "Trayectoria / Improviser",
 			"description": ""
 		},
 		{
 			"id": "Path / Infiltrator",
-			"name": "Path / Infiltrator",
+			"name": "Trayectoria / Infiltrator",
 			"description": ""
 		},
 		{
 			"id": "Path / Lorekeeper",
-			"name": "Path / Lorekeeper",
+			"name": "Trayectoria / Lorekeeper",
 			"description": ""
 		},
 		{
 			"id": "Path / Loyalist",
-			"name": "Path / Loyalist",
+			"name": "Trayectoria / Loyalist",
 			"description": ""
 		},
 		{
 			"id": "Path / Masked",
-			"name": "Path / Masked"
+			"name": "Trayectoria / Masked"
 		},
 		{
 			"id": "Path / Oathbreaker",
-			"name": "Path / Oathbreaker"
+			"name": "Trayectoria / Oathbreaker"
 		},
 		{
 			"id": "Path / Outcast",
-			"name": "Path / Outcast",
+			"name": "Trayectoria / Outcast",
 			"description": ""
 		},
 		{
 			"id": "Path / Pretender",
-			"name": "Path / Pretender",
+			"name": "Trayectoria / Pretender",
 			"description": ""
 		},
 		{
 			"id": "Path / Revenant",
-			"name": "Path / Revenant"
+			"name": "Trayectoria / Revenant"
 		},
 		{
 			"id": "Path / Rider",
-			"name": "Path / Rider"
+			"name": "Trayectoria / Rider"
 		},
 		{
 			"id": "Path / Ritualist",
-			"name": "Path / Ritualist"
+			"name": "Trayectoria / Ritualist"
 		},
 		{
 			"id": "Path / Shadow-Kin",
-			"name": "Path / Shadow-Kin"
+			"name": "Trayectoria / Shadow-Kin"
 		},
 		{
 			"id": "Path / Sighted",
-			"name": "Path / Sighted",
+			"name": "Trayectoria / Sighted",
 			"description": ""
 		},
 		{
 			"id": "Path / Slayer",
-			"name": "Path / Slayer",
+			"name": "Trayectoria / Slayer",
 			"description": ""
 		},
 		{
 			"id": "Path / Spirit-Bound",
-			"name": "Path / Spirit-Bound",
+			"name": "Trayectoria / Spirit-Bound",
 			"description": ""
 		},
 		{
 			"id": "Path / Storyweaver",
-			"name": "Path / Storyweaver",
+			"name": "Trayectoria / Storyweaver",
 			"description": ""
 		},
 		{
 			"id": "Path / Trickster",
-			"name": "Path / Trickster",
+			"name": "Trayectoria / Trickster",
 			"description": ""
 		},
 		{
 			"id": "Path / Veteran",
-			"name": "Path / Veteran",
+			"name": "Trayectoria / Veteran",
 			"description": ""
 		},
 		{
 			"id": "Path / Waterborn",
-			"name": "Path / Waterborn",
+			"name": "Trayectoria / Waterborn",
 			"description": ""
 		},
 		{
 			"id": "Path / Wayfinder",
-			"name": "Path / Wayfinder",
+			"name": "Trayectoria / Wayfinder",
 			"description": ""
 		},
 		{
 			"id": "Path / Weaponmaster",
-			"name": "Path / Weaponmaster"
+			"name": "Trayectoria / Weaponmaster"
 		},
 		{
 			"id": "Path / Wildblood",
-			"name": "Path / Wildblood",
+			"name": "Trayectoria / Wildblood",
 			"description": ""
 		},
 		{
 			"id": "Path / Wright",
-			"name": "Path / Wright",
+			"name": "Trayectoria / Wright",
 			"description": ""
 		},
 		{
