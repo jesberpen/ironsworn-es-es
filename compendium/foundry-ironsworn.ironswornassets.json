@@ -330,201 +330,302 @@
 		},
 		{
 			"id": "Path / Honorbound",
-			"name": "Trayectoria / Honorbound",
-			"description": ""
+			"name": "Trayectoria / Honorable",
+			"abilities description 1": "<p>[X] Cuando <em>Cambies las Tornas</em>, imagina como tus juramentos te dan fuerza en este momento. Después, cuando hagas tu movimiento, añade +2 (en vez de +1) y gana +1 impulso con un éxito.</p>",
+			"abilities description 2": "<p>Cuando <em>Creas una Ventaja</em> o <em>Persuades</em> usando una dura verdad, añade +1 y gana +1 impulso con un éxito. Con un éxito parcial o un fallo, imagina como esta verdad complica la situación actual.</p>",
+			"abilities description 3": "<p>Cuando <em>Cumplas tu Juramento</em> y obtengas un fallo, puedes volver a tirar uno de los dados de desafío. Si vuelves a obtener un fallo, reduce tu entereza máxima en 1. Puedes volver a recuperar esta entereza perdida cuando <em>Cumplas tu Juramento</em> la próxima vez y consigas un éxito total.</p>"
 		},
 		{
 			"id": "Path / Improviser",
-			"name": "Trayectoria / Improviser",
-			"description": ""
+			"name": "Trayectoria / Improvisador",
+			"abilities description 1": "<p>[X] Cuando <em>Compruebas tu Equipo</em>, puedes ((rollplus wits)) (en vez de ((rollplus supply))). Si lo haces, imagina como lo realizas con un solución ingeniosa, y gana +1 impulso con un éxito.</p>",
+			"abilities description 2": "<p>Cuando <em>Creas una Ventaja</em> o te <em>Enfrentas al Peligro</em> apañando una herramienta o aparato, añade +1 y gana +1 impulso con un éxito. Después de tirar, también puedes sufrir -1 de suministros y añadir un +1 adicional.</p>",
+			"abilities description 3": "<p>Cuando dejás la precaución para otros momentos y realizas un movimiento impulsivoen una sitación arriesgada, puedes añadir +2. Si lo haces, gana +1 impulso en un éxito total, pero cuenta los éxitos parciales como fallos.</p>"
 		},
 		{
 			"id": "Path / Infiltrator",
-			"name": "Trayectoria / Infiltrator",
-			"description": ""
+			"name": "Trayectoria / Infiltrador",
+			"abilities description 1": "<p>[X] Cuando hagas un movimiento para penetrar, atravesar, o esconderte en un área controlada por un enemigo, añade +1 y gana +1 impulso con un éxito.</p>",
+			"abilities description 2": "<p>Cunado <em>Recabas Información</em> dentro de una área enemiga para descubrir sus posiciones, planes, o métodos, o cunado <em>Creas una Ventaja</em> dentro de ese área mediante observación, puedes ((rollplus shadow)) (en vez de ((rollplus wits))). Si lo haces, gana +1 impulso con un éxito.</p>",
+			"abilities description 3": "<p>Cunado te <em>Reabasteces</em> dentro de un área enemiga rebuscando o saqueando, puedes ((rollplus shadow)) (en vez de ((rollplus wits))). Si lo haces, gana +1 impulso o +1 de suministros con un éxito.</p>"
 		},
 		{
 			"id": "Path / Lorekeeper",
-			"name": "Trayectoria / Lorekeeper",
-			"description": ""
+			"name": "Trayectoria / Guardián del conocimiento",
+			"abilities description 1": "<p>[X] Eres el titular de un archivo místico. Cuando <em>Creas una Ventaja</em> o <em>Recabas Información</em> usando conocimientos adquiridos de tus estudios, añade +1. Si tienes varias horas para investigar el archivo, añade +2. Con un éxito, imagina el conocimiento oculto pero útil que usas (<em>Pregunta al Oráculo</em> ante la duda), y gana +1 impulso.</p>",
+			"abilities description 2": "<p>Cuando conoces de la existencia de un lugar u objeto con conocimiento perdido, y <em>Juras por el Hierro</em> que lo recuperarás para el archivo, vuelve a tirar cualquier dado. Cuando <em>Cumplas el Juramento</em> y anotes la experiencia, gana +1 EXP.</p>",
+			"abilities description 3": "<p>Un sola vez, puedes buscar en las profundidades prohibidas del archivo. Si lo haces, incrementa tu Mente en 1 y tira un dado de acción. De 1-3, también debes marcacr corrompido o <em>Afrontar la Desolación</em> (ignorando impulso).</p>"
 		},
 		{
 			"id": "Path / Loyalist",
-			"name": "Trayectoria / Loyalist",
-			"description": ""
+			"name": "Trayectoria / Leal",
+			"abilities description 1": "<p>[X] Cuando <em>Ayudes a tu Aliado</em>, añade +1 y gana +1 impulso con un éxito. Esto es aparte de los beneficios obtenidos de tu aliado.</p>",
+			"abilities description 2": "<p>Cuando un aliado el movimiento de <em>Sportar el Estrés</em> en tu compañía, añade +1 y tu ganas +1 impulso con un éxito.</p>",
+			"abilities description 3": "<p>Cuando estás junto atu aliado mientras hacen un movimiento de progreso, imagina como le das soporte. Después, tira un dado de desafío. De 1-9, tu aliado puede remplazar uno de sus dados de desafío por el tuyo. Con un 10, imagina como perjudicas de forma inintecionada su acción; tu aliado debe remplazar su dado de desafi3o mas bajo con el tuyo.</p>"
 		},
 		{
 			"id": "Path / Masked",
-			"name": "Trayectoria / Masked"
+			"name": "Trayectoria / Enmascarado",
+			"description": "Una vez que hayas forjado un vínculo con elfos, y te hayan regaladp un máscara de preciado de madera antigua...",
+			"field 1 name": "Material",
+			"abilities description 1": "<p>Elige el material de tu máscara.</p><ul><li>Madera del Trueno: Filo / Salud</li><li>Madera de Sangre: Hierro / Salud</li><li>Madera Fantasmal: Sombra / Entereza</li><li>Madera de Susurro: Mente / Entereza</li></ul><p>Cuando lleves la máscara puesta y hagas un movimiento que use su característica, añade +1. Si consigues un 1 en tu dado de acción, sufre -1 al contador correspondiente (aparte de cualqueir otra consecuencia de tu movimiento).</p>",
+			"abilities description 2": "<p>Como el punto previo, pero puedes añadir +2 y sufrir -2 (decide antes de tirar).</p>",
+			"abilities description 3": "<p>Cuando <em>Afrontas la Muerte</em> o <em>Afrontas la Desolación</em> mientras llevas puesta la máscara, puedes tirar +sus características (en vez de ((rollplus heart))).</p>"
 		},
 		{
 			"id": "Path / Oathbreaker",
-			"name": "Trayectoria / Oathbreaker"
+			"name": "Trayectoria / Rompejuramentos",
+			"description": "Una vez que hayas *Roto tu Juramento*...",
+			"abilities description 1": "<p>[X] Este recurso cuenta como una debilidad. Una sola vez, cuando <em>Jures por el Hierro</em> para redimirte (extremo o mayor), usa una marca especial para ese juramento. Cuando <em>Alcances un Hito</em> en ese juramento, gana +2 impulso.</p>",
+			"abilities description 2": "<p>Cuando <em>Creas una Ventaja</em> o <em>Persuades</em> reafirmando tu compromiso con el juramento marcado, añade +1 y gana +1 impulso con un éxito.</p>",
+			"abilities description 3": "<p>Cuando <em>Cumplas tu Juramento</em> marcado y consigas un éxito, encuentras redención y puedes automaticamente activar esta capacidad sin coste alguno. Puedes mejorar una de tus características en +1 y descartar este recurso.</p>"
 		},
 		{
 			"id": "Path / Outcast",
-			"name": "Trayectoria / Outcast",
-			"description": ""
+			"name": "Trayectoria / Marginado",
+			"abilities description 1": "<p>[X] Cuando tus suministros se ven reducidos a 0, sufre cualquier -suministros restante como -impulso. Después, ((rollplus wits)). Con un éxito total, consigues reunir alfo y ganas +1 de suministros. Con un éxito parcial, puedes sufrir -2 impulso a cambio de +1 de suministros. Con un fallo, te <em>Quedas sin Suministros</em>.</p>",
+			"abilities description 2": "<p>Cuando <em>Pasas Tiempo en una Comunidad</em>, puedes volver a tirar cualquier dado. Si lo haces (decide antes de tu primera tirada), tienes menos necesidades, pero tu aislamiento diferencia del resto. Un éxito total cuenta como un éxito parcial.</p>",
+			"abilities description 3": "<p>Cuando <em>Alcanzas tu Destino</em> y consigues un éxito total, recuerdas o reconoces al útil sobre este lugar. Imagine lo que es, y gana +2 impulso.</p>"
 		},
 		{
 			"id": "Path / Pretender",
-			"name": "Trayectoria / Pretender",
-			"description": ""
+			"name": "Trayectoria / Impostor",
+			"abilities description 1": "<p>[X] Cuando estableces una identidad falsa, ((rollplus shadow)). Con un éxito total, puedes añadir +2 cuando hagas movimientos usando esta identidad para engañar o influenciar a otros. Si tiras un 1 en tu dado de acción usando tu identidad falsa, alguien duda de ti. Realiza movimientos apropiados para asegurarles o prevenir que revelen la verdad. Con un éxito parcial, lo mismo, pero añades +1 (en vez de +2).</p>",
+			"abilities description 2": "<p>Como la capacidad anterior, y puedes ((rollplus shadow)) (en vez de ((rollplus heart))) cuando <em>Pasas Tiempo en una Comunidad</em> bajo tu identidad falsa. Si lo haces, gana +1 impulso con un éxito.</p>",
+			"abilities description 3": "<p>Cuando <em>Creas una Ventaja</em> revelando tu verdadera identidad en un momento dramático, vuelve a tirar cualquier dado.</p>"
 		},
 		{
 			"id": "Path / Revenant",
-			"name": "Trayectoria / Revenant"
+			"name": "Trayectoria / Renacido",
+			"description": "Una vez que hayas *Afrontado la Muerte* y vuelves al mundo de los vivos...",
+			"abilities description 1": "<p>[X] Cuando estás a 0 de salud, y <em>Soportas Daño</em> o <em>Afrontas la Muerte</em>, añade +1. Si a continuación quemas impulso para mejorar tu resultado, imagina que vínculo o juramento te mantiene en este mundo, y gana +2 impulso después de reiniciarlo.</p>",
+			"abilities description 2": "<p>Cuando haces un movimiento para investigar, oponerte o interactuar con una abominación, espíritu, u otro no-muerto, añade +1.</p>",
+			"abilities description 3": "<p>Cuando matas a tu adversario para <em>Terminar la Lucha</em>, puedes quemar impulso para cancelar uno (no ambos) de los dados de desafío si tu impulso es mayor que el valor del dado. Si lo haces, <em>Soporta el Estrés</em> (2 estrés).</p>"
 		},
 		{
 			"id": "Path / Rider",
-			"name": "Trayectoria / Rider"
+			"name": "Trayectoria / Jinete",
+			"description": "Si estás con tu caballo (compañero)...",
+			"abilities description 1": "<p>[X] Cuando <em>Curas</em> a tu caballo, o cuando te <em>Enfrentas al Peligro</em> para calmarlo o alentarlo, añade +1 y gana +1 impulso con un éxito.</p>",
+			"abilities description 2": "<p>Cuando <em>Viajas</em>, puedes forzar a tu caballo y añadir +1 (después de tirar). Si lo haces, realiza el movimiento <em>Tu Compañero Sufre Daño</em> (1 de daño).</p>",
+			"abilities description 3": "<p>Cuando <em>Creas una Ventaja</em> ((rollplus wits)) evaluando una situación peligrosa desde tu montura, eres uno con los instintos de tu caballo. Añade +1 y gana +1 impulso con un éxito.</p>"
 		},
 		{
 			"id": "Path / Ritualist",
-			"name": "Trayectoria / Ritualist"
+			"name": "Trayectoria / Ritualista",
+			"description": "Una vez que hayas *Cumplido tu Juramentow* (formidable o mayor) al servicio de místicos sabios, y *Forjas un Vínculo* para entenar con ellos...",
+			"abilities description 1": "<p>[X] Cuando <em>Creas una Ventaja</em> preparándote para un ritual, imagina como lo haces. Después, añade +1 y gana +1 impulso con un éxito.</p>",
+			"abilities description 2": "<p>Cuando llevas a cabo un ritual, puedes sufrir -1 de suministros y añadir +1 (decide antes de tirar).</p>",
+			"abilities description 3": "<p>Cuando te tatúas la esencia de un nuevo ritual en tu piel, imagina el símbolo que creas. Después puedes comprar y mejorar ese recurso de ritual por 1 EXP menos.</p>"
 		},
 		{
 			"id": "Path / Shadow-Kin",
-			"name": "Trayectoria / Shadow-Kin"
+			"name": "Trayectoria / Uno con las sombras",
+			"description": "Una vez que te hayas corrompido...",
+			"abilities description 1": "<p>Endureces tu corazón: Reduce tu característiac de corazón en 1 y añade hasta +2 a sombra (hasta un máximo de +4).</p>",
+			"abilities description 2": "<p>Estás en sintonía con el mundo de las sombras: cuando llevas a cabo un ritual, añade +1.</p>",
+			"abilities description 3": "<p>Conoces los maquiavélicos caminos de la muerte: Cuando <em>Afrontas la Muerte</em>, puedes ((rollplus shadow)) (en vez de ((rollplus heart))). Con un éxito parcial, si eliges emprender una misión ligada a la muerte, puedes ((rollplus shadow)) (en vez de ((rollplus heart))) y volver a tirar cualquier dado mientras <em>Juras por el Hierro</em>. Cuando <em>Cumples tu Juramento</em> en esa misión y anotas la experiencia, gana +2 EXP.</p>"
 		},
 		{
 			"id": "Path / Sighted",
 			"name": "Trayectoria / Sighted",
-			"description": ""
+			"abilities description 1": "<p>[X] Cuando te <em>Enfrentas al Peligro</em> o <em>Recabas Información</em> para identificar o detectar fuerzas místicas, añade +1 y gana +1 impulso con un éxito.</p>",
+			"abilities description 2": "<p>Cuando <em>Persuades</em>, <em>Forjas un Vínculo</em>, o <em>Pones a Prueba un Vínculo</em> con otro individuo o ser místico, añade +1 y gana +1 impulso con un éxito.</p>",
+			"abilities description 3": "<p>Cuando <em>Creas una Ventaja</em> estudiando algo o alguien en una situación tensa, añade +1 y gana +1 impulso con un éxito. Cuando también perfores el velo para explorar las verdades mas profundas (decide antes de tirar), puedes volver a tirar cualquier dado. Si lo haces, cuenta un éxito parcial como un fallo.</p>"
 		},
 		{
 			"id": "Path / Slayer",
-			"name": "Trayectoria / Slayer",
-			"description": ""
+			"name": "Trayectoria / Exterminador",
+			"abilities description 1": "<p>[X] Cuando <em>Recabas Información</em> rastreando una bestia o una abominación, o cuando <em>Creas una Ventaja</em> preparándote para combatir contra ellos, añade +1 y gana +1 impulso con un éxito.</p>",
+			"abilities description 2": "<p>Cuando <em>Juras por el Hierro</em> para matar a una bestia o una abominación, puedes volver a tirar cualquier dado. Cuando <em>Cumples tu Juramento</em> y anotas experiencia, gana +1 EXP.</p>",
+			"abilities description 3": "<p>Cuando mates a una bestia o una abominación (al menos formidable), puedes tomar un trofeo y elegir uno.</p><ul><li>Potenciar un ritual: Cuando tu o un aliado lleve a cabo un movimiento de ritual, vuelve a tirar cualquier dado (una sóla vez).</li><li>Demuestra tu valía: Cuando <em>Pasas tiempo en una Comunidad</em>, vuelve a tirar cualquier dado (una sóla vez).</li></ul>"
 		},
 		{
 			"id": "Path / Spirit-Bound",
-			"name": "Trayectoria / Spirit-Bound",
-			"description": ""
+			"name": "Trayectoria / Vinculado con un espíritu",
+			"abilities description 1": "<p>[X] Eres atormentado por alguien al que le causaste la muerte por tus acciones o errores. Cuando consultas con su espíritu para <em>Crear una Ventaja</em> o <em>Recabar Información</em>, añade +1 y gana +2 impulso con un éxito. Con un éxito parcial, también <em>Sportas el Estrés</em> (1 estrés).</p>",
+			"abilities description 2": "<p>Cuando <em>Afrontas la Muerte</em> guiado por el espíritu, añade +1. Con un éxito total, imagina lo que aprendes y gana 1 EXP.</p>",
+			"abilities description 3": "<p>Una única vez, cuando <em>Cumples tu Juramento</em> exitosamente (formidable o mayor) al servicio de un espíritu, elige uno.</p><ul><li>Déjalos ir: Gana 2 EXP por cada capacidad marcada en este recurso y descártalo.</li><li>Estrecha tu conexión: Añade +1 adicional cuando aprovehces este recurso.</li></ul>"
 		},
 		{
 			"id": "Path / Storyweaver",
-			"name": "Trayectoria / Storyweaver",
-			"description": ""
+			"name": "Trayectoria / Trobador",
+			"abilities description 1": "<p>[X] Cuando <em>Creas una Ventaja</em>, <em>Persuades</em>, o <em>Forjas un Vínculo</em> compartiendo una canción, poema o relato reveladores o  inspiradores, iamgina la historia que cuentas. Después, añade +1 y gana +1 impulso con un éxito.</p>",
+			"abilities description 2": "<p>Cuando <em>Acampas</em> y eliges la opción de relajarte, puedes compartir una historia con tus aliados o componer una nueva historia si estás solo. Si lo haces, imagina la historia que cuentas y gana +1 de entereza o +1 impulso. Cualquier aliado que elija relajarse en tu compañía también puede ganar +1 de entereza o +1 impulso.</p>",
+			"abilities description 3": "<p>Cuando <em>Pasas tiempo en una Comunidad</em> con la que compartes un vínculo, añade +2 (en vez de +1).</p>"
 		},
 		{
 			"id": "Path / Trickster",
-			"name": "Trayectoria / Trickster",
-			"description": ""
+			"name": "Trayectoria / Estafador",
+			"abilities description 1": "<p>[X] Cuando <em>Afrontas el Peligro</em>, <em>Creas una Ventaja</em>, o <em>Persuades</em> mintiendo, fingiendo, robando o haciendo trampas, añade +1.</p>",
+			"abilities description 2": "<p>Cuando <em>Recabas Información</em> investigando una intriga retorcida, puedes ((rollplus shadow)) (en vez de ((rollplus wits))). Si lo haces, gana +2 impulso con un éxito.</p>",
+			"abilities description 3": "<p>Cuando <em>Forjas un Vínculo</em> con una realción basada en una mentira, elige uno.</p><ul><li>Guarda el secreto: ((rollplus shadow)) (en vez de ((rollplus heart))).</li><li>Revela la verdad: ((rollplus heart)). Con un éxito total, anota el vínculo dos veces y gana 1 EXP. Un éxito parcial se considera como un fallo.</li></ul>"
 		},
 		{
 			"id": "Path / Veteran",
-			"name": "Trayectoria / Veteran",
-			"description": ""
+			"name": "Trayectoria / Veterano",
+			"abilities description 1": "<p>[X] Cuando quemas impulso para mejorar tu resultado en combate, imagina como tu abundante experiencia peleando te da la ventaja. Después, gana +1 impulso despues de reiniciarlo, y añade +1 cuando hagas tu próximo movimiento. Una vez por combate, también puedes tomar la iniciativa quemando impulso para mejorar un fallo a un éxito parcial.</p>",
+			"abilities description 2": "<p>Cuando <em>Juras por el Hierro</em> a alguien que a peleado a tu lado, o <em>Forjas un Vínculo</em> con ellos, añade +2 y gana +2 impulso con un éxito.</p>",
+			"abilities description 3": "<p>Cuando te <em>Reabasteces</em> saqueando a los muertos en un campo de batalla, añade +1 y gana +1 impulso con un éxito.</p>"
 		},
 		{
 			"id": "Path / Waterborn",
-			"name": "Trayectoria / Waterborn",
-			"description": ""
+			"name": "Trayectoria / Marino",
+			"abilities description 1": "<p>Cuando te <em>Enfrentas al Peligro</em>, <em>Recabas Información</em>, o <em>Creas una Ventaja</em> relacionada con tu conocimiento de embarcaciones, viajes por el agua, o entornos o criaturas acuáticas, añade +1 y gana +1 impulso con un éxito.</p>",
+			"abilities description 2": "<p>Cuando <em>Viajas</em> en bote o barco, añade +1. Con un éxito total, también elige uno.</p><ul><li>El viento está a favor: Marca progreso dos veces.</li><li>Enecutra un fondeo seguro: <em>Acampa</em> ahora y vuelve a turar cualquier dado.</li><li>Aprovecha la zona depesca: <em>Reabastécete</em> ahora y vuelve a tirar cualquier dado.</li></ul>",
+			"abilities description 3": "<p>Cuando <em>Entras en Liza</em> a bordo de un bote o un barco, vuelve a tirar cualquier dado.</p>"
 		},
 		{
 			"id": "Path / Wayfinder",
-			"name": "Trayectoria / Wayfinder",
-			"description": ""
+			"name": "Trayectoria / Buscador de caminos",
+			"abilities description 1": "<p>[X] Cuando <em>Viajas</em>, gana +1 impulso con un éxito total. Si quemas impulso para mejorar tu resultado, gana también +1 impulso después de reiniciarlo.</p>",
+			"abilities description 2": "<p>Cuando <em>Creas un Ventaja</em> o <em>Recabas Información</em> estudiando cuidadósamente el terreno o adelantándote a explorar, añade +1 y gana +1 impulso con un éxito.</p>",
+			"abilities description 3": "<p>Cuando <em>Juras por el Hierro</em> para guiar a alguien en un viaje peligros, puedes volver a tirar cualquier dado. Cuando <em>Cumples tu Juramento</em> y anotas experiencia, gana +1 EXP.</p>"
 		},
 		{
 			"id": "Path / Weaponmaster",
-			"name": "Trayectoria / Weaponmaster"
+			"name": "Trayectoria / Especialista en armas",
+			"description": "Una vez que hayas *Cumplido tu Juramento* (formidable o mayor) al servicio de un guerrero experimentado, y *Forjes un Vínculo* para entrenar con ellos...",
+			"abilities description 1": "<p>[X] Cuando <em>Creas una Ventaja</em> juzgando a tu adversario en un combate, o en una situación tensa que pueda llevar a un combate, añade +1 y gana +1 impulso con un éxito.</p>",
+			"abilities description 2": "<p>Cuando estudias o entrenas con un nuevo arma o técnica, puedes obtener y mejorar ese talento de combate por 1 EXP menos.</p>",
+			"abilities description 3": "<p>Cuando <em>Cambias las Tornas</em> con un cambio inesperado de arma o técnica, y tu próximo movimiento es <em>Golpear</em>, añade +1 e inflige +2 de daño con un éxito total.</p>"
 		},
 		{
 			"id": "Path / Wildblood",
-			"name": "Trayectoria / Wildblood",
-			"description": ""
+			"name": "Trayectoria / Sangre del Bosque",
+			"abilities description 1": "<p>[X] Cuando te <em>Enfrentas al Peligro</em>, <em>Creas una Ventaja</em>, o <em>Recabas Información</em> usando tus conocimientos de rastreo, silvicultura o criaturas del bosque, añade +1.</p>",
+			"abilities description 2": "<p>Cuando te <em>Enfrentas al Peligro</em> o <em>Creas una Ventaja</em> escondiéndote o pasando desapercibido en los bosques, añade +1 y gana +1 impulso con un éxito.</p>",
+			"abilities description 3": "<p>Cuando <em>Acampas</em> en los bosques, puedes ((rollplus wits)) (en vez de ((rollplus supply))). Si lo haces, tu y tus aliados podéis elegir cada uno 1 opción adicional con un éxito.</p>"
 		},
 		{
 			"id": "Path / Wright",
-			"name": "Trayectoria / Wright",
-			"description": ""
+			"name": "Trayectoria / Artesano",
+			"field 1 name": "Especialidad",
+			"abilities description 1": "<p>[X] Cuando <em>Creas una Ventaja</em> fabricando un objeto útil usando tu especialidad, or cuando te <em>Enfrentas al Peligro</em> para crear o reparar un objeto en una situación peligrosa, añade +1 y gana +1 impulso con un éxito.</p>",
+			"abilities description 2": "<p>Lo mismo que la primera capacidad, y además puedes sufrir -1 de suministros (después de tirar) para añadir un +1 adicional.</p>",
+			"abilities description 3": "<p>Cuando das el objeto creado como regalo para conmemorar un un evento o relación importante, puedes (una sola vez) volver a tirar cualquier dado cuando <em>Persuades</em>, <em>Forjas un Vínculo</em>, o <em>Pones a Prueba un Vínculo</em>.</p>"
 		},
 		{
 			"id": "Ritual / Augur",
 			"name": "Ritual / Augur",
-			"description": ""
+			"abilities description 1": "<p>[X] Cuando convocas una bandada de cuervos y haces una única pregunta, ((rollplus wits)). Con un éxito total, interpretas sus graznidos como un buen augurio. Imagina la respuesta (<em>Pregunta al Oráculo</em> ante la duda) y gana +2 impulso. Con un éxito parcial, los cuervos ignoran tu pregunta y te ofrecen una pista sin relación alguna sobre un problema u oportunidad en este área. Imagina lo que aprendes (<em>Pregunta al Oráculo</em> ante la duda), y gana +1 impulso.</p>",
+			"abilities description 2": "<p>Igual que la capacidad previa, y los cuervos también te ayudan y guían en la dirección correcta. Con un éxito, añade +1 en el siguiente segmento cuando <em>Viajas</em>.</p>",
+			"abilities description 3": "<p>Cuando llevas a cabo este ritual, añade +1 y gana +1 impulso con un éxito.</p>"
 		},
 		{
 			"id": "Ritual / Awakening",
-			"name": "Ritual / Awakening",
-			"description": ""
+			"name": "Ritual / Despertar",
+			"abilities description 1": "<p>[X] Cuando creas un ente, ((rollplus heart)). Con un éxito total, tu creación recibe una vida no natural. Si te ayuda mientras hacces un movimiento para asaltar o superar un obstáculo usando la fuerza, añade +2. Tiene 3 de salud y sufre daño de forma apropiada, pero no es un compañero y no puede ser curado. Con 0 de salud, muere. Con un éxito parcial, lo mismo, pero si obtienes un 1 al tirar tu dado de acción mientras tu creación te ayuda, debes <em>Enfrentárte al Peligro</em> ((rollplus heart)) para que no se vuelva en tu contra (como adversario formidable).</p>",
+			"abilities description 2": "<p>Tu ente tiene 6 de salud.</p>",
+			"abilities description 3": "<p>Cuando llevas a cabo este ritual, añade +1 y gana +1 impulso con un éxito.</p>",
+			"track name": "Salud"
 		},
 		{
 			"id": "Ritual / Bind",
-			"name": "Ritual / Bind",
-			"description": ""
+			"name": "Ritual / Unir",
+			"abilities description 1": "<p>[X] Cuando lluevas un pellejo animal y bailas bajo la luz de la Luna, ((rollplus wits)). Con un éxito total, tu o un aliado puede llevar puesto el pellejo y añadir +1 al realizar movimientos con la característica asociada (lobo-filo; oso-hierro; ciervo-corazón; zorro-sombra; jabalí-mente). Si el portador obtiene un 1 al tirar su dado de acción usando el pellejo, la magia se agota. Con un éxito parcial, lo mismo, pero la naturaleza responde a tu danza; <em>Sporta el Estrés</em> (2 estrés).</p>",
+			"abilities description 2": "<p>Igual que la capacidad previa, pero en cambio puedes realizar este ritual llevando el pellejo de una bestia. Si l oahces, nombra la característica asociada y añade +2 (en vez de +1).</p>",
+			"abilities description 3": "<p>Cuando llevas a cabo este ritual, añade +1 y gana +1 impulso con un éxito.</p>"
 		},
 		{
 			"id": "Ritual / Communion",
-			"name": "Ritual / Communion",
-			"description": ""
+			"name": "Ritual / Comunión",
+			"abilities description 1": "<p>[X] Cuando rodeas con velas encendidas los restos de una criatura inteligente defunta recientemente, e invocas su espíritu, ((rollplus heart)). Añade +1 si compartes un vínculo. Con un éxito total, el espíritu aparece y puedes conversar unos pocos minutos. Haz los movimientos aproppiados (añade +1). Con un éxito parcial, lo mismo, pero el espíritu también entrega noticias preocupante no relacionadas con tu propósito. imagina lo que te dice (<em>APregunta al Oráculo</em> ante la duda) y <em>Soporta el Estrés</em> (1 estrés).</p>",
+			"abilities description 2": "<p>Igual que la capacidad previa, pero en cambio puedes invocar a los que llevan tiempo muertos.</p>",
+			"abilities description 3": "<p>Cuando llevas a cabo este ritual, añade +1 y gana +1 impulso con un éxito.</p>"
 		},
 		{
 			"id": "Ritual / Divination",
-			"name": "Ritual / Divination",
-			"description": ""
+			"name": "Ritual / Divinación",
+			"abilities description 1": "<p>[X] Cuando usas una gota de sangre de un sujeto dispuesto (no tuya) y lanzas las piedras talladas con runas, ((rollplus heart)). Con un éxito total, puedes leer las runas para ganar conocimiento sobre el sujeto y la gente cercana, inlcuido información que tu ni el sujeto conocéis. Si usas la lectura para <em>Recabar Información</em>, <em>Persuadir</em>, o <em>Forjar un Vínculo</em>, añade +1. Con un éxito parcial, lo mismo, pero las runas revelan sus secretos sólo con tiempo y concentración adicional; sufre -2 impulso.</p>",
+			"abilities description 2": "<p>Igual que la capacidad previa, pero en cambio tu divinación también puede revelar información sobre el futuro del sujeto.</p>",
+			"abilities description 3": "<p>Cuando llevas a cabo este ritual, añade +1 y gana +1 impulso con un éxito.</p>"
 		},
 		{
 			"id": "Ritual / Invoke",
-			"name": "Ritual / Invoke",
-			"description": ""
+			"name": "Ritual / Invocar",
+			"abilities description 1": "<p>[X] Cuando consumes la energía mística de tu entorno, ((rollplus wits)). Con un éxito total, añade el valor de tu dado de acción al contador de esencia (máx 6). Después puedes <em>Crear una Ventaja</em> o <em>Afrontar el Peligro</em> +esencia para crear efectos o ilusiones místicas menores. Si lo haces, sufre -1 de esencia y gana +1 impulso con un éxito. Con un éxito parcial, lo mismo, pero capturar estas energías es angustioso; <em>Sportar el Estrés</em> (2 estrés).</p>",
+			"abilities description 2": "<p>Puedes <em>Persuadir</em> +esencia (y sufrir -1 de esencia) demostrando tu poder.</p>",
+			"abilities description 3": "<p>Cuando llevas a cabo este ritual, añade +1 y gana +1 de esencia con un éxito.</p>",
+			"track name": "Esencia"
 		},
 		{
 			"id": "Ritual / Keen",
 			"name": "Ritual / Keen",
-			"description": ""
+			"abilities description 1": "<p>[X] Cuando empuñas un arma y cantas un Keen por aquellos a los que ha matado, ((rollplus heart)). Con un éxito total, quien empuña el arma inflige +1 de daño cuando <em>Golpea</em> o <em>Contrataca</em>. Si obtiene un 1 en la tirada del dado de acción haciendo un movimiento que provoca daño, la magia se agota. Con un éxito parcial, lo mismo, pero las voces de aquellos que fueron abatidos se unen a tu canción; <em>Soporta el Estrés</em> (2 estrés).</p>",
+			"abilities description 2": "<p>Igual que la capacidad previa, pero en cambio el que empuña el arma también puede (una sóla vez) añadir +1 y ganar +2 impulso con un éxito cuando <em>Dibuja el Círculo</em>, <em>Entra en Liza</em>, o <em>Batalla</em>.</p>",
+			"abilities description 3": "<p>Cuando llevas a cabo este ritual, añade +1 y gana +1 impulso con un éxito.</p>"
 		},
 		{
 			"id": "Ritual / Leech",
-			"name": "Ritual / Leech",
-			"description": ""
+			"name": "Ritual / Sanguijuela",
+			"abilities description 1": "<p>[X] Cuando marcas tus manos o arma con una runa de sangre intrincada, ((rollplus iron)). Con un éxito total, la runa está sedienta por sangre fresca. Una única vez, cuando haces un movimiento para provocar daño, vuelve a tirar cualquier dado e infliges +2 de daño con un éxito. Después, por cada punto de daño infligido, gana +1 y distribullelos entre ((rollplus health)) o +impulso. Con un éxito parcial, lo mismo, pero este recurso cuenta como una debilidad hasta que la sed de la runa esté saciada.</p>",
+			"abilities description 2": "<p>Igual que la capacidad previa, pero también puedes tocar a un aliado o compañero  y dejarles tomar cualquier puntos restantes como ((rollplus health)) o +impulso.</p>",
+			"abilities description 3": "<p>Cuando llevas a cabo este ritual, añade +1 y gana +1 impulso con un éxito.</p>"
 		},
 		{
 			"id": "Ritual / Lightbearer",
-			"name": "Ritual / Lightbearer",
-			"description": ""
+			"name": "Ritual / Portador de luz",
+			"abilities description 1": "<p>[X] Cuando te concentras en una fuente de luz y capturas su esencia, ((rollplus wits)). Con un éxito total, pon tu barra de luz a +6. Con un éxito parcial, ponla a +3. Después, cuando hagas un movimiento para superar o navegar la oscuridad, puedes añadir +2 y sufrir -1 de luz.</p>",
+			"abilities description 2": "<p>Puedes usar tu luz para <em>Golpear</em> o <em>Contrataar</em> contra un adversario que habita en la oscuridad. Elige la cantidad de luz a liberar, y tira +luz (en vez de ((rollplus iron)) o ((rollplus edge))). Sufre -luz igual a esa cantidad. Con un éxito, tu daño es 1+la luz liberada.</p>",
+			"abilities description 3": "<p>Cuando llevas a cabo este ritual, añade +1 y gana +1 impulso con un éxito.</p>",
+			"track name": "Luz"
 		},
 		{
 			"id": "Ritual / Scry",
-			"name": "Ritual / Scry",
-			"description": ""
+			"name": "Ritual / Hablar con las llamas",
+			"abilities description 1": "<p>[X] Cuando miras en las llamas para estudiar un lugar o persona remota, ((rollplus shadow)). Tu o laguien contigo debe conocer el objetigo. Con un éxito total, puedes <em>Recabar Información</em> observando con ((rollplus shadow)) o ((rollplus wits)). Con un éxito parcial, lo mismo, pero las llamas están hambrientas; elige una opción para sacrificar.</p><ul><li>Tu sangre: <em>Soporta el Daño</em> (2 de daño).</li><li>Algo preciado: <em>Soporta el Estrés</em> (2 estrés).</li><li>Provisions: Suffer -2 supply.</li></ul>",
+			"abilities description 2": "<p>Igual que la capacidad previa, en cambio puedes estudiar un evento pasado.</p>",
+			"abilities description 3": "<p>Cuando llevas a cabo este ritual, añade +1 y gana +1 impulso con un éxito.</p>"
 		},
 		{
 			"id": "Ritual / Shadow-Walk",
-			"name": "Ritual / Shadow-Walk",
-			"description": ""
+			"name": "Ritual / Caminar en las Sombras",
+			"abilities description 1": "<p>[X] Cuando the envuelves con el fino velo del reino de las sombras, ((rollplus shadow)). Con un éxito total, gana +1 impulso. Después, vuelve a tirar cualquier dado (una sola vez) cuando haces un movimiento emboscando, escondiéndote o pasando desapercibido. Con un éxito parcial, lo mismo, pero las sombras intentan que te pierdas. Debes primero <em>Afrontar el Peligro</em> para encontrar tu camino.</p>",
+			"abilities description 2": "<p>Igual que la capacidad previa, per también puedes recorrer los caminos ocultos del reino de las sombras para <em>Viajar</em> usando ((rollplus shadow)) (en vez de ((rollplus wits))). Si lo haces, <em>Soporta el Estrés</em> (1 estrés) y anota progreso dos veces con un éxito total.</p>",
+			"abilities description 3": "<p>Cuando llevas a cabo este ritual, añade +1 y gana +1 impulso con un éxito.</p>"
 		},
 		{
 			"id": "Ritual / Sway",
-			"name": "Ritual / Sway",
-			"description": ""
+			"name": "Ritual / Influir",
+			"abilities description 1": "<p>[X] Cuando dices el nombre de una persona al viento tres veces, ((rollplus wits)). Con un éxito total, el viento te susurra lo que esta persona necesita. Imagina lo que escuchas (<em>Pregunta al Oráculo</em> ante la duda). Si usas esta información o satisfaces esta necesidad cuando lo intentas <em>Persuadir</em>, puedes volver a tirar cualquier dado (una sola vez). Con un éxito parcial, lo mismo, pero la necesidad de esta persona crea un dilema probelmático o una complicación; <em>Soporta el Estrés</em> (1 estrés).</p>",
+			"abilities description 2": "<p>Igual que la capacidad previa, y si consigues un éxito total cuando intentas <em>Persuadir</em>, también puedes volver a tirar cualquier dado (una sola vez) cuando <em>Recabas Información</em> de esta persona.</p>",
+			"abilities description 3": "<p>Cuando llevas a cabo este ritual, añade +1 y gana +1 impulso con un éxito.</p>"
 		},
 		{
 			"id": "Ritual / Talisman",
-			"name": "Ritual / Talisman",
-			"description": ""
+			"name": "Ritual / Talismán",
+			"abilities description 1": "<p>[X] Cuando fabricas un talismán, imagínalo y nombra a la persona o criatura específica contra la que protege. Después ((rollplus wits)). Con un éxito total, cuando el portador se opone al objetivo con un movimiento, añade +2. Si se obitne un 1 en el dado de acción haciendo un movimiento que usa el talismán, la magia se agota. Con un éxito parcial, lo mismo, pero el portador añade +1 al hacer el movimiento (en vez de +2).</p>",
+			"abilities description 2": "<p>Igual que la capacidad previa, pero en cambio puedes fabricar un talismán que ayuda a su portador contra todos los peligros sobrenaturales, como rituales místicos o abominaciones.</p>",
+			"abilities description 3": "<p>Cuando llevas a cabo este ritual, añade +1 y gana +1 impulso con un éxito.</p>"
 		},
 		{
 			"id": "Ritual / Tether",
-			"name": "Ritual / Tether",
-			"description": ""
+			"name": "Ritual / Proyectar",
+			"abilities description 1": "<p>[X] Cuando comulgas con los spíritus de un lugar, ((rollplus heart)). Si compartes un vínculo con alguien ahí, añade +1. Con un éxito total, te proyectas. Cuando <em>Viajas</em> para volver, puedes ((rollplus spirit)) o ((rollplus heart)) (en vez de ((rollplus wits))), y ganas +1 impulso con un éxito. Cuando <em>Alcanzas tu Destino</em>, gana +2 impulso con un éxito total. La proyección se pierde si llevas a cabo este ritual en otro lugar, o cuando <em>Afrontas la Desolación</em>. Con un éxito parcial, lo mismo, pero los espíritus revelan un aspecto perturbador de este lugar; <em>Soporta en Estrés</em> (2 estrés).</p>",
+			"abilities description 2": "<p>Igual que la capacidad previa, y también puedes volver a tirar cualquier dado cuando <em>Pasa tiempo en una comunidad</em> en el lugar proyectado.</p>",
+			"abilities description 3": "<p>Cuando llevas a cabo este ritual, añade +1 y gana +1 impulso con un éxito.</p>"
 		},
 		{
 			"id": "Ritual / Totem",
-			"name": "Ritual / Totem",
-			"description": ""
+			"name": "Ritual / Tótem",
+			"abilities description 1": "<p>[X] Cuando sostienes un tótem de tu compañero animal o bestia y te concentras en él, ((rollplus heart)). Con un éxito total, estáis unidos. Añade +1 y gana +1 impulso con un éxito cuando usas una capacidad del compañero. Si obtienes un 1 en tu tirada de dao de acción usando una capacidad del compañero, la magia se agota. Con un éxito parcial, lo mismo, pero crear esta conexión es inquietante; <em>Soporta el estrés</em> (1 estrés).</p>",
+			"abilities description 2": "<p>Igual que la capacidad previa, y también puedes percibir el mundo a través de los sentidos de tu compañero cuando haces movimientos en los que te ayudan (incluso si no estáis juntos).</p>",
+			"abilities description 3": "<p>Cuando llevas a cabo este ritual, añade +1 y gana +1 impulso con un éxito.</p>"
 		},
 		{
 			"id": "Ritual / Visage",
-			"name": "Ritual / Visage",
-			"description": ""
+			"name": "Ritual / Semblante",
+			"abilities description 1": "<p>[X] Cuando te pintas con sangre y cenizas, ((rollplus wits)). Con un éxito total, puedes añadir +2 y gana +1 impulso con un éxito cuando <em>Creas una Ventaja</em> o <em>Persuades</em> usando el miedo o la intimidación. Si obtienes un 1 en la tirada del dado de acción cuando realizas un movimiento haciendo uso de tu aspecto, la magia se agota. Con un éxito parcial, lo mismo, pero la sangre debe ser tuya; <em>Sporta el Daño</em> (2 de daño).</p>",
+			"abilities description 2": "<p>Igual que la capacidad previa, y también puedes añadir +1 cuando <em>Golpeas</em>, <em>Contratacas</em>, o <em>Batallas</em>.</p>",
+			"abilities description 3": "<p>Cuando llevas a cabo este ritual, añade +1 y gana +1 impulso con un éxito.</p>"
 		},
 		{
 			"id": "Ritual / Ward",
-			"name": "Ritual / Ward",
-			"description": ""
+			"name": "Ritual / Protección",
+			"abilities description 1": "<p>[X] Cuando realizas un amplio círculo, esparciendo sal en el suelo, ((rollplus wits)). Con un éxito total, elige dos. Con un éxito parcial, elige uno.</p><ul><li>Cuando un adversario cruza por primera vez los límites, gana +1 impulso.</li><li>Cuando inlfiges daño por primera vez a un adversario dentro de los límites, inflige +1 de daño.</li><li>Con tu protección es ‘probable’ (<em>Pregunta al Oráculo</em>) atrapar a un adversario dentro de los límites.</li></ul>",
+			"abilities description 2": "<p>Igual que la capacidad previa, y mejora el efecto de tu protección (+2 impulso, +2 de daño, y ‘casi seguro’).</p>",
+			"abilities description 3": "<p>Cuando llevas a cabo este ritual, añade +1 y gana +1 impulso con un éxito.</p>"
 		}
 	]
 }
