@@ -1,237 +1,192 @@
 {
-	"label": "Ironsworn Foes",
-	"entries": [
-		{
-			"id": "Atanya",
-			"name": "Atanya"
+	"label": "Ironsworn Adversarios",
+	"mapping": {
+		"description": "data.description"
+	},
+
+	"entries": {
+		"Atanya": {
+			"name": "Atanya",
+			"description": "\n\n<h2>Atanya</h2>\n\n<p>Esta gente del mar habita en las islas del Arrecife, a lo largo de la Costa Quebrada y en los páramos helados de la zona más al norte. Algunos viven en aldeas aisladas aferradas a las costas escarpadas, o como nómadas entre los desiertos de hielo. Otros pasan su vida a bordo de embarcaciones finamente construidas, llamadas casas a la deriva. Estos barcos buscan una zona de anclaje seguro durante los meses más crueles del invierno, y vuelven al mar en los meses más tranquilos.</p>\n<p>Los atanya son un pueblo diverso, pero la mayoría se adapta bien a la vida en los climas del norte. Son fuertes, resistentes y longevos. Su altura y sus formas robustas les confieren una presencia física imponente, pero en general son de buen carácter. Tienen un sentido antinatural del tiempo que se avecina y un conocimiento innato del mar. Algunos dicen que una vez vivieron en las profundidades del océano, pero que fueron maldecidos por un dios abandonado y desterrados a la superficie.</p>\n\n<div class=\"boxgroup flexrow boxrow\">\n  <div class=\"flexcol box\" style=\"justify-content: flex-start;\">\n    <h4 class=\"nogrow\" style=\"margin: 0.5em;\">Características</h4>\n    <p class=\"nogrow\">Forma corpulenta</p>\n    <p class=\"nogrow\">Piel iridiscente y cabello oscuro</p>\n    <p class=\"nogrow\">Visten en pieles y cuero</p>\n  </div>\n  <div class=\"flexcol box\" style=\"justify-content: flex-start;\">\n    <h4 class=\"nogrow\" style=\"margin: 0.5em;\">Motivaciones</h4>\n    <p class=\"nogrow\">Caza y pesca</p>\n    <p class=\"nogrow\">Respeto por el mar</p>\n    <p class=\"nogrow\">Buscar tierras nuevas</p>\n  </div>\n  <div class=\"flexcol box\" style=\"justify-content: flex-start;\">\n    <h4 class=\"nogrow\" style=\"margin: 0.5em;\">Táctivas</h4>\n    <p class=\"nogrow\">Atacar con lanzas</p>\n    <p class=\"nogrow\">Pelear en grupo, y encarnar el poder del poderoso mar</p>\n  </div>\n</div>\n\n<em><p>\n\n<h3>Semillas</h3>\nEn una generación pasada, uno de tus parientes fue rescatado en el mar por un barco atanya. Según su tradición, esto generó una deuda de por vida, que no fue pagada por tu pariente muerto hace tiempo y que ahora pasa a ti. Te piden que te adentres en las entrañas inundadas de una cueva marina desolada para recuperar un objeto preciado. ¿Qué es lo que buscan?</p></em>\n\n<em><p>Barcos Atanya navegan a veces hacia el oeste y no regresan durante meses o años. Algunos no vuelven a ser vistos. ¿Qué se rumorea que hay más allá del horizonte occidental?</p></em>\n\n<h2>Los Primeros Nacidos</h2>\n<p>Los primeros nacidos vivían aquí mucho antes de que los humanos llegaran a estas costas. Los humanos, en su arrogancia, llamaron a esta península las Tierras del Hierro y se autodenominaron habitantes de la Tierra del Hierro, pero los primeros nacidos les dieron sus propios nombres en una época que no se puede recordar.</p>\n"
 		},
-		{
-			"id": "Basilisk",
-			"name": "Basilisk"
+		"Basilisk": {
+			"name": "Basilisco",
+			"description": "\n\n<h2>Basilisco</h2>\n\n<p>Los basiliscos habitan en las Tierras Inundadas, acechando en las aguas turbias de los pantanos o en los matorrales pantanosos. Allí esperan pacientemente a sus presas. Suelen alimentarse de ratas de los pantanos o de ciervos, pero también se alimentan de los habitantes de las Tierras del Hierro que pasan por allí.</p>\n\n<div class=\"boxgroup flexrow boxrow\">\n  <div class=\"flexcol box\" style=\"justify-content: flex-start;\">\n    <h4 class=\"nogrow\" style=\"margin: 0.5em;\">Características</h4>\n    <p class=\"nogrow\">Serpiente gigante</p>\n    <p class=\"nogrow\">Piel marrón amarillenta mate</p>\n    <p class=\"nogrow\">Ojos amarillos brillantes</p>\n  </div>\n  <div class=\"flexcol box\" style=\"justify-content: flex-start;\">\n    <h4 class=\"nogrow\" style=\"margin: 0.5em;\">motivaciones</h4>\n    <p class=\"nogrow\">Devorar</p>\n  </div>\n  <div class=\"flexcol box\" style=\"justify-content: flex-start;\">\n    <h4 class=\"nogrow\" style=\"margin: 0.5em;\">Táxticas</h4>\n    <p class=\"nogrow\">Acechar</p>\n    <p class=\"nogrow\">Mirada hipnótica</p>\n    <p class=\"nogrow\">Mordedura repentina</p>\n    <p class=\"nogrow\">Quebrantar</p>\n  </div>\n</div>\n\n<em><p>\n\n<h3>Semillas</h3>\nEl aventurero marcho en busca de matar a un basilisco, sólo para convertirse en su próxima comida. Como la serpiente digiere su presa lentamente, los restos del aventurero siguen sin duda dentro de la bestia, junto con la espada heredada que empuñaba. ¿Cuál es tu relación con esta persona? ¿Por qué es tan importante para ti recuperar la espada?</p></em>\n\n<em><p>Una pieza de la anatomía de un basilisco es valorada por los habitantes de las Tierras del Hierro. ¿De qué se trata? ¿Cómo se utiliza?</p></em>\n\n<h2>Bestia</h2>\n<p>Las bestias son criaturas monstruosas de gran tamaño y poder. Son seres naturales -no entidades sobrenaturales- pero eran desconocidas en el Viejo Mundo.</p>\n"
 		},
-		{
-			"id": "Bear",
-			"name": "Bear"
+		"Bear": {
+			"name": "Oso",
+			"description": "\n\n<h2>Oso</h2>\n\n<p>La mayoría de los osos no son agresivos. Evitan a los habitantes de las Tierras del Hierro y es poco probable que ataquen a menos que te vean como una amenaza.</p>\n<p>Hay excepciones. Los osos plateados de las Montañas Veladas, que a veces se extienden hasta el sur de las Colinas de la Tempestad, son territoriales, poderosos y agresivos. Asimismo, el oso cenizo, que se encuentra en los bosques de las Tierras de Hierro, es conocido por su ferocidad y astucia. Si cualquiera de los dos capta tu olor en el viento, es probable que te den caza y te ataquen.</p>\n\n<div class=\"boxgroup flexrow boxrow\">\n  <div class=\"flexcol box\" style=\"justify-content: flex-start;\">\n    <h4 class=\"nogrow\" style=\"margin: 0.5em;\">Características</h4>\n    <p class=\"nogrow\">Dientes y garras temibles</p>\n    <p class=\"nogrow\">Piel gruesa</p>\n  </div>\n  <div class=\"flexcol box\" style=\"justify-content: flex-start;\">\n    <h4 class=\"nogrow\" style=\"margin: 0.5em;\">Motivaciones</h4>\n    <p class=\"nogrow\">Encontrar comida</p>\n    <p class=\"nogrow\">Defender sus oseznos</p>\n  </div>\n  <div class=\"flexcol box\" style=\"justify-content: flex-start;\">\n    <h4 class=\"nogrow\" style=\"margin: 0.5em;\">Tácticas</h4>\n    <p class=\"nogrow\">Rugido</p>\n    <p class=\"nogrow\">Inmovilizar</p>\n    <p class=\"nogrow\">Atacar con fuerza salvaje</p>\n  </div>\n</div>\n\n<em><p>\n\n<h3>Semillas</h3>\nUn grupo de cazadores abatió a un gran oso cenizo con varias flechas. El oso cayó a un río y fue arrastrado. Desgraciadamente, el oso que creían muerto acecha ahora al grupo en su camino de vuelta a casa.</p></em>\n\n\n<h2>Animal</h2>\n<p>Los animales son las criaturas mundanas que habitan en las Tierras del Hierro. Algunos animales son nativos de estas tierras; otros también eran comunes en el Viejo Mundo.</p>\n<p>La mayoría de los animales salvajes son asustadizos y no suponen una amenaza para los humanos. Esas criaturas no tienen rango, y se puede atacar o interactuar con ellas utilizando los movimientos adecuados. Por ejemplo, <em>Reabastecer</em> puede representar cazar ciervos o caza menor.</p>\n<p>Unos pocas excepciones de importancia - depredadores, criaturas agresivas, y animales entrenados para combatir - se agrupan en esta categoría.</p>\n"
 		},
-		{
-			"id": "Bladewing",
-			"name": "Bladewing"
+		"Bladewing": {
+			"name": "Alihoja",
+			"description": "\n\n<h2>Alihoja</h2>\n\n<p>Estas criaturas carnívoras habitan en cuevas y ruinas, y emergen por la noche para cazar. Tienen una forma delgada y angulosa, con una envergadura tan amplia como los brazos extendidos de un habitante de las Tierras del Hierro.</p>\n<p>Normalmente se alimentan de presas pequeñas, pero una bandada de Alihojas hambrientos acosará a víctimas más grandes, lanzándose y acuchillando en ataques coordinados. Durante las largas noches de invierno, grandes bandadas de estas criaturas han descendido sobre los asentamientos de los habitantes de las Tierras del Hierro o viajeros incautos.</p>\n\n<div class=\"boxgroup flexrow boxrow\">\n  <div class=\"flexcol box\" style=\"justify-content: flex-start;\">\n    <h4 class=\"nogrow\" style=\"margin: 0.5em;\">Características</h4>\n    <p class=\"nogrow\">Alas grandes y en forma de dagas</p>\n    <p class=\"nogrow\">Mandículas prolongadas y con dientes de aguja</p>\n    <p class=\"nogrow\">Piel oscura y curtida</p>\n  </div>\n  <div class=\"flexcol box\" style=\"justify-content: flex-start;\">\n    <h4 class=\"nogrow\" style=\"margin: 0.5em;\">Motivaciones</h4>\n    <p class=\"nogrow\">Volar bajo la protección de la oscuridad</p>\n    <p class=\"nogrow\">Cazar desde arriba</p>\n  </div>\n  <div class=\"flexcol box\" style=\"justify-content: flex-start;\">\n    <h4 class=\"nogrow\" style=\"margin: 0.5em;\">Tácticas</h4>\n    <p class=\"nogrow\">Planear sigilosamente</p>\n    <p class=\"nogrow\">Ataque ágil y repentino</p>\n  </div>\n</div>\n\n<em><p>\n\n<h3>Semillas</h3>\nNoche tras noche, una colonia de Alihojas emerge para atacar un asentamiento remoto. Se rumorea que las criaturas tienen su guarida en un <strong>Mina Devastada</strong>. ¿Qué impulsa sus ataques?</p></em>\n\n<em><p>Un clan de habitantes de las colinas lleva a cabo cacerías ceremoniales de Alihojas y decora sus estandartes y escudos con su forma. Sus místicos y guerreros incluso llevan las alas coriáceas como adorno. ¿Qué poderes o protecciones crees que les confiere esto?</p></em>\n\n<h2>Animal</h2>\n<p>Los animales son las criaturas mundanas que habitan en las Tierras del Hierro. Algunos animales son nativos de estas tierras; otros también eran comunes en el Viejo Mundo.</p>\n<p>La mayoría de los animales salvajes son asustadizos y no suponen una amenaza para los humanos. Esas criaturas no tienen rango, y se puede atacar o interactuar con ellas utilizando los movimientos adecuados. Por ejemplo, <em>Reabastecer</em> puede representar cazar ciervos o caza menor.</p>\n<p>Unos pocas excepciones de importancia - depredadores, criaturas agresivas, y animales entrenados para combatir - se agrupan en esta categoría.</p>\n"
 		},
-		{
-			"id": "Blighthound",
-			"name": "Blighthound"
+		"Blighthound": {
+			"name": "Perro Desolador",
+			"description": "\n\n<h2>Perro Desolador</h2>\n\n<p>Los perros desoladores acechan en los campos de batalla ensangrentados, en las afueras de los asentamientos destinados a la hambruna o en las oscuras catacumbas de las antiguas tumbas. Atraídos por los muertos y presagiando una gran fatalidad, son depredadores capaces y sombríos mensajeros de la muerte.</p>\n<p>Su apariencia es como de sabuesos demacrados, que a menudo se confunden con animales hambrientos a primera vista. Su forma diabólica se revela en los ojos rojos como la sangre, los cuernos y la piel con la textura de la madera carbonizada y ampollada.</p>\n\n<div class=\"boxgroup flexrow boxrow\">\n  <div class=\"flexcol box\" style=\"justify-content: flex-start;\">\n    <h4 class=\"nogrow\" style=\"margin: 0.5em;\">Características</h4>\n    <p class=\"nogrow\">ojos rojos</p>\n    <p class=\"nogrow\">Esbeltos, forma tip cánida</p>\n    <p class=\"nogrow\">Cuernos curvados</p>\n  </div>\n  <div class=\"flexcol box\" style=\"justify-content: flex-start;\">\n    <h4 class=\"nogrow\" style=\"margin: 0.5em;\">Motivaciones</h4>\n    <p class=\"nogrow\">Presagiar muerte</p>\n    <p class=\"nogrow\">Cumpli la profecía de la muerte</p>\n    <p class=\"nogrow\">Crear guaridas dónde la muerte está cerca</p>\n  </div>\n  <div class=\"flexcol box\" style=\"justify-content: flex-start;\">\n    <h4 class=\"nogrow\" style=\"margin: 0.5em;\">Tácticas</h4>\n    <p class=\"nogrow\">Aullido sobrenatural</p>\n    <p class=\"nogrow\">Mirada penetrante</p>\n    <p class=\"nogrow\">Mordedura salvaje</p>\n  </div>\n</div>\n\n<em><p>\n\n<h3>Semillas</h3>\nTodas las noches, un perro desolador aparece a las afueras de un asentamiento en el borde de un <strong>Bosque Primigenio Salvaje</strong>, observando en silencio desde el interior de la niebla. La gente se queda paralizada de terror, preguntándose qué destino les deparará. Si alguno se acerca al perro desolador, éste lea conduce a las profundidades del bosque...</p></em>\n\n\n<h2>Abominación</h2>\n<p>Las abominaciones son entidades sobrenaturales. En el Viejo Mundo, eran supersticiones y leyendas. Aquí, son pesadillas hechas realidad. Las Tierras de Hierro son un terreno fértil para que la oscuridad y el mal se arraiguen, engendrando estos seres no muertos de pura venganza u odio sin sentido.</p>\n<p>Muchas abominaciones pueden ser derrotadas temporalmente mediante ataques físicos, pero no pueden ser matadas. No pertenecen al reino de los vivos.</p>\n"
 		},
-		{
-			"id": "Blood Thorn",
-			"name": "Blood Thorn"
+		"Blood Thorn": {
+			"name": "Espinos de Sangre",
+			"description": "\n\n<h2>Zarza de Sangre</h2>\n\n<p>Un Espino de Sangre es una planta maligna y carnívora. Agarra a sus víctimas con largos zarcillos rastreros. A continuación, les succiona la vida a través de espinas huecas, desangrándolas finalmente.</p>\n<p>Los Espinos de Sangre aparecen en las zonas boscosas de las Tierras de Hierro. Son especialmente comunes en las Tierras Salvajes Profundas, donde a menudo rodean las aldeas de los elfos. Algunos sospechan que son cultivados por los elfos, o que comparten una relación simbiótica con ellos.</p>\n\n<div class=\"boxgroup flexrow boxrow\">\n  <div class=\"flexcol box\" style=\"justify-content: flex-start;\">\n    <h4 class=\"nogrow\" style=\"margin: 0.5em;\">Características</h4>\n    <p class=\"nogrow\">Ramas con espinas</p>\n    <p class=\"nogrow\">Huesos sueltos y completamente limpios</p>\n    <p class=\"nogrow\">Vaina central grande</p>\n  </div>\n  <div class=\"flexcol box\" style=\"justify-content: flex-start;\">\n    <h4 class=\"nogrow\" style=\"margin: 0.5em;\">Motivaciones</h4>\n    <p class=\"nogrow\">Consumir sangre</p>\n    <p class=\"nogrow\">Proliferar</p>\n  </div>\n  <div class=\"flexcol box\" style=\"justify-content: flex-start;\">\n    <h4 class=\"nogrow\" style=\"margin: 0.5em;\">Tácticas</h4>\n    <p class=\"nogrow\">Permanecer a la espera</p>\n    <p class=\"nogrow\">Agarrar, enredar, y alimentarse</p>\n  </div>\n</div>\n\n<em><p>\n\n<h3>Semillas</h3>\nLos habitantes de las Tierras del Hierro intentaron fundar un asentamiento en el corazón de un <strong>Bosque Primigenio Salvaje</strong> hace una década. Ese lugar está ahora abandonado e infestado de Espinos de Sangre. ¿Por qué los colonos intentaron crear un hogar en un lugar tan indómito? ¿Qué objeto o información buscas allí?</p></em>\n\n<em><p>Cada primavera, una vibrante flor roja brota de las ramas de las espinas de la sangre. Esta flor es codiciada como ingrediente para los elixires alquímicos. ¿Qué efecto produce?</p></em>\n\n<h2>Anomalía</h2>\n<p>La magia antigua impregna las Tierras del Hierro. Estas fuerzas se manifiestan a veces como una anomalía, que es una característica anómala del terreno o del entorno. Algunas son la encarnación de antiguos espíritus y tienen motivaciones desconocidas. Otras son fuerzas de la naturaleza con un propósito cruel.</p>\n"
 		},
-		{
-			"id": "Boar",
-			"name": "Boar"
+		"Boar": {
+			"name": "Jabalí",
+			"description": "\n\n<h2>Jabalí</h2>\n\n<p>En el Viejo Mundo, los jabalíes eran animales beligerantes y peligrosos. ¿Aquí en las Tierras de Hierro? Son aún más grandes y malvados. Atacan sin aviso ni provocación. Te arrollarán, te cornearán, te morderán y darán la vuelta para hacerlo todo de nuevo. Y otra vez. Y otra vez.</p>\n\n<div class=\"boxgroup flexrow boxrow\">\n  <div class=\"flexcol box\" style=\"justify-content: flex-start;\">\n    <h4 class=\"nogrow\" style=\"margin: 0.5em;\">Características</h4>\n    <p class=\"nogrow\">Pieles nervudas</p>\n    <p class=\"nogrow\">Grandes colmillos</p>\n    <p class=\"nogrow\">Despiadado</p>\n  </div>\n  <div class=\"flexcol box\" style=\"justify-content: flex-start;\">\n    <h4 class=\"nogrow\" style=\"margin: 0.5em;\">Motivaciones</h4>\n    <p class=\"nogrow\">Buscar alimento</p>\n    <p class=\"nogrow\">Proteger su territori</p>\n    <p class=\"nogrow\">Defender sus jabatos</p>\n  </div>\n  <div class=\"flexcol box\" style=\"justify-content: flex-start;\">\n    <h4 class=\"nogrow\" style=\"margin: 0.5em;\">Tácticas</h4>\n    <p class=\"nogrow\">Cargar y cornear</p>\n    <p class=\"nogrow\">Rodear y atacar de nuevo</p>\n  </div>\n</div>\n\n<em><p>\n\n<h3>Semillas</h3>\nUna cacería de jabalíes termina en tragedia cuando un habitante de las Tierras del Hierro es corneado y gravemente herido. ¿Cómo conoces a esta persona? ¿Qué terrible verdad revela mientras yace moribundo?</p></em>\n\n\n<h2>Animal</h2>\n<p>Los animales son las criaturas mundanas que habitan en las Tierras del Hierro. Algunos animales son nativos de estas tierras; otros también eran comunes en el Viejo Mundo.</p>\n<p>La mayoría de los animales salvajes son asustadizos y no suponen una amenaza para los humanos. Esas criaturas no tienen rango, y se puede atacar o interactuar con ellas utilizando los movimientos adecuados. Por ejemplo, <em>Reabastecer</em> puede representar cazar ciervos o caza menor.</p>\n<p>Unos pocas excepciones de importancia - depredadores, criaturas agresivas, y animales entrenados para combatir - se agrupan en esta categoría.</p>\n"
 		},
-		{
-			"id": "Bog Rot",
-			"name": "Bog Rot"
+		"Bog Rot": {
+			"name": "Pútrido del Pantano",
+			"description": "\n\n<h2>Pútrido del Pantano</h2>\n\n<p>Hace mucho tiempo, antes de que llegáramos a las costas de las Tierras del Hierro, otros pueblos vivían aquí. Algunos de ellos vivían en lo que ahora llamamos las Tierras Inundadas, y enterraban a sus parientes en las vastas turberas de ese lugar.</p>\n<p>Algunos de esos muertos no descansan, y se levantan como Pútridos del Pantano. Son criaturas horripilantes, con la carne conservada manchada y marchita como el cuero viejo. Sus ojos son pozos negros y sus bocas cuelgan abiertas en un grito perpetuo y silencioso.</p>\n<p>Se dice que los Pútridos del Pantano sólo pueden encontrar descanso arrastrando a otra víctima al fondo de la ciénaga. Un alma por un alma. En esos momentos finales, la criatura susurra antiguos secretos y conocimientos prohibidos, como si descargara la carga de ese oscuro conocimiento. Para los pocos que escapan de las garras de un Pútrido del Pantano, estas horribles verdades son a veces peores que la muerte.</p>\n\n<div class=\"boxgroup flexrow boxrow\">\n  <div class=\"flexcol box\" style=\"justify-content: flex-start;\">\n    <h4 class=\"nogrow\" style=\"margin: 0.5em;\">Características</h4>\n    <p class=\"nogrow\">Carne momificada</p>\n    <p class=\"nogrow\">Andar tambaleante</p>\n  </div>\n  <div class=\"flexcol box\" style=\"justify-content: flex-start;\">\n    <h4 class=\"nogrow\" style=\"margin: 0.5em;\">Motivaciones</h4>\n    <p class=\"nogrow\">Levantarse y buscar a los vivos</p>\n    <p class=\"nogrow\">Confinar a otro a la muerte en su lugar</p>\n  </div>\n  <div class=\"flexcol box\" style=\"justify-content: flex-start;\">\n    <h4 class=\"nogrow\" style=\"margin: 0.5em;\">Tácticas</h4>\n    <p class=\"nogrow\">Emerger del barro</p>\n    <p class=\"nogrow\">Agarrar con las manos</p>\n    <p class=\"nogrow\">Aplastar con fuerza sobrenatural</p>\n    <p class=\"nogrow\">Compartir secretos aterradores</p>\n  </div>\n</div>\n\n<em><p>\n\n<h3>Semillas</h3>\nEn una <strong>Marisma Oscura Corrompida</strong>, una vez tuvo lugar una gran batalla. Cientos de personas murieron en medio de la ciénaga. Sus cadáveres momificados yacen enterrados en el barro y la turba, pero muchos no descansan en paz. ¿Qué secreto o artefacto se dice que yace con ellos? ¿Por qué has jurado buscarlo?</p></em>\n\n<em><p>Los habitantes de las Tierras Inundadas promulgan una práctica de enterramiento particular para asegurarse de que sus parientes no se levanten algún día como un Pútrido del Pantano de ese suelo nefasto. ¿De qué se trata?</p></em>\n\n<h2>Abominación</h2>\n<p>Las abominaciones son entidades sobrenaturales. En el Viejo Mundo, eran supersticiones y leyendas. Aquí, son pesadillas hechas realidad. Las Tierras de Hierro son un terreno fértil para que la oscuridad y el mal se arraiguen, engendrando estos seres no muertos de pura venganza u odio sin sentido.</p>\n<p>Muchas abominaciones pueden ser derrotadas temporalmente mediante ataques físicos, pero no pueden ser matadas. No pertenecen al reino de los vivos.</p>\n"
 		},
-		{
-			"id": "Bonehorde",
-			"name": "Bonehorde"
+		"Bonehorde": {
+			"name": "Horda de huesos",
+			"description": "\n\n<h2>Horda de huesos</h2>\n\n<p>Una horda de huesos es una masa de restos óseos en descomposición a los que se les ha dado una vida antinatural. Se originan en antiguos campos de batalla o tumbas, pero a menudo se extienden más allá de esos lugares para buscar nuevas víctimas. En el corazón de una horda, rodeado de capas de huesos que traquetean, están los restos del ser rencoroso que da a la abominación su cruel inteligencia.</p>\n<p>Su forma varía. En espacios reducidos, una horad de huesos puede aparecer como un montículo amorfo o como una entidad parecida a una araña con extremidades largas y escurridizas. Al aire libre, puede imitar burdamente la forma de un animal o una persona. Los huesos se mueven constantemente, como ramitas secas, para adaptarse a su entorno, impulsar su movimiento y arremeter contra sus víctimas.</p>\n\n<div class=\"boxgroup flexrow boxrow\">\n  <div class=\"flexcol box\" style=\"justify-content: flex-start;\">\n    <h4 class=\"nogrow\" style=\"margin: 0.5em;\">Características</h4>\n    <p class=\"nogrow\">Los huesos de incontables cuerpos, agrupados por una fuerza oscura</p>\n    <p class=\"nogrow\">Se mueve con un traqueteo hueco sigiloso</p>\n  </div>\n  <div class=\"flexcol box\" style=\"justify-content: flex-start;\">\n    <h4 class=\"nogrow\" style=\"margin: 0.5em;\">Motivaciones</h4>\n    <p class=\"nogrow\">Destruir y matar</p>\n    <p class=\"nogrow\">Capturar nuevos huesos</p>\n  </div>\n  <div class=\"flexcol box\" style=\"justify-content: flex-start;\">\n    <h4 class=\"nogrow\" style=\"margin: 0.5em;\">Tácticas</h4>\n    <p class=\"nogrow\">Cambiar de forma</p>\n    <p class=\"nogrow\">Golpear con apéndices esqueléticos</p>\n    <p class=\"nogrow\">Dañar terreno o estructura</p>\n    <p class=\"nogrow\">Rodear y aplastar</p>\n  </div>\n</div>\n\n<em><p>\n\n<h3>Semillas</h3>\nDurante meses, alguien ha estado robando restos de tumbas y túmulos locales. Ahora, una horda de huesos emerge de un <strong>Bosque Primigenio Encantado/strong> para atacar comunidades cercanas y viajeros. ¿Quién manda esta inmunda aberración y con qué propósito?</p></em>\n\n\n<h2>Abominación</h2>\n<p>Las abominaciones son entidades sobrenaturales. En el Viejo Mundo, eran supersticiones y leyendas. Aquí, son pesadillas hechas realidad. Las Tierras de Hierro son un terreno fértil para que la oscuridad y el mal se arraiguen, engendrando estos seres no muertos de pura venganza u odio sin sentido.</p>\n<p>Muchas abominaciones pueden ser derrotadas temporalmente mediante ataques físicos, pero no pueden ser matadas. No pertenecen al reino de los vivos.</p>\n"
 		},
-		{
-			"id": "Bonewalker",
+		"Bonewalker": {
 			"name": "Bonewalker"
 		},
-		{
-			"id": "Broken",
+		"Broken": {
 			"name": "Broken"
 		},
-		{
-			"id": "Carrion Newt",
+		"Carrion Newt": {
 			"name": "Carrion Newt"
 		},
-		{
-			"id": "Cave Lion",
+		"Cave Lion": {
 			"name": "Cave Lion"
 		},
-		{
-			"id": "Chimera",
+		"Chimera": {
 			"name": "Chimera"
 		},
-		{
-			"id": "Chitter",
+		"Chitter": {
 			"name": "Chitter"
 		},
-		{
-			"id": "Circle of Stones",
+		"Circle of Stones": {
 			"name": "Circle of Stones"
 		},
-		{
-			"id": "Common Folk",
+		"Common Folk": {
 			"name": "Common Folk"
 		},
-		{
-			"id": "Deep Rat",
+		"Deep Rat": {
 			"name": "Deep Rat"
 		},
-		{
-			"id": "Elder Beast",
+		"Elder Beast": {
 			"name": "Elder Beast"
 		},
-		{
-			"id": "Elf",
+		"Elf": {
 			"name": "Elf"
 		},
-		{
-			"id": "Frostbound",
+		"Frostbound": {
 			"name": "Frostbound"
 		},
-		{
-			"id": "Gaunt",
+		"Gaunt": {
 			"name": "Gaunt"
 		},
-		{
-			"id": "Giant",
+		"Giant": {
 			"name": "Giant"
 		},
-		{
-			"id": "Glimmer",
+		"Glimmer": {
 			"name": "Glimmer"
 		},
-		{
-			"id": "Gloom",
+		"Gloom": {
 			"name": "Gloom"
 		},
-		{
-			"id": "Gnarl",
+		"Gnarl": {
 			"name": "Gnarl"
 		},
-		{
-			"id": "Harrow Spider",
+		"Harrow Spider": {
 			"name": "Harrow Spider"
 		},
-		{
-			"id": "Haunt",
+		"Haunt": {
 			"name": "Haunt"
 		},
-		{
-			"id": "Hollow",
+		"Hollow": {
 			"name": "Hollow"
 		},
-		{
-			"id": "Hunter",
+		"Hunter": {
 			"name": "Hunter"
 		},
-		{
-			"id": "Husk",
+		"Husk": {
 			"name": "Husk"
 		},
-		{
-			"id": "Iron Revenant",
+		"Iron Revenant": {
 			"name": "Iron Revenant"
 		},
-		{
-			"id": "Iron-Wracked Beast",
+		"Iron-Wracked Beast": {
 			"name": "Iron-Wracked Beast"
 		},
-		{
-			"id": "Kraken",
+		"Kraken": {
 			"name": "Kraken"
 		},
-		{
-			"id": "Leviathan",
+		"Leviathan": {
 			"name": "Leviathan"
 		},
-		{
-			"id": "Maelstrom",
+		"Maelstrom": {
 			"name": "Maelstrom"
 		},
-		{
-			"id": "Mammoth",
+		"Mammoth": {
 			"name": "Mammoth"
 		},
-		{
-			"id": "Marsh Rat",
+		"Marsh Rat": {
 			"name": "Marsh Rat"
 		},
-		{
-			"id": "Merrow",
+		"Merrow": {
 			"name": "Merrow"
 		},
-		{
-			"id": "Mystic",
+		"Mystic": {
 			"name": "Mystic"
 		},
-		{
-			"id": "Nightmare Spider",
+		"Nightmare Spider": {
 			"name": "Nightmare Spider"
 		},
-		{
-			"id": "Nightspawn",
+		"Nightspawn": {
 			"name": "Nightspawn"
 		},
-		{
-			"id": "Primordial",
+		"Primordial": {
 			"name": "Primordial"
 		},
-		{
-			"id": "Raider",
+		"Raider": {
 			"name": "Raider"
 		},
-		{
-			"id": "Rhaskar",
+		"Rhaskar": {
 			"name": "Rhaskar"
 		},
-		{
-			"id": "Shroud Crab",
+		"Shroud Crab": {
 			"name": "Shroud Crab"
 		},
-		{
-			"id": "Sodden",
+		"Sodden": {
 			"name": "Sodden"
 		},
-		{
-			"id": "Tempest",
+		"Tempest": {
 			"name": "Tempest"
 		},
-		{
-			"id": "Thrall",
+		"Thrall": {
 			"name": "Thrall"
 		},
-		{
-			"id": "Trog",
+		"Trog": {
 			"name": "Trog"
 		},
-		{
-			"id": "Troll",
+		"Troll": {
 			"name": "Troll"
 		},
-		{
-			"id": "Varou",
+		"Varou": {
 			"name": "Varou"
 		},
-		{
-			"id": "Warrior",
+		"Warrior": {
 			"name": "Warrior"
 		},
-		{
-			"id": "Wight",
+		"Wight": {
 			"name": "Wight"
 		},
-		{
-			"id": "Wolf",
+		"Wolf": {
 			"name": "Wolf"
 		},
-		{
-			"id": "Wyrm",
+		"Wyrm": {
 			"name": "Wyrm"
 		},
-		{
-			"id": "Wyvern",
+		"Wyvern": {
 			"name": "Wyvern"
 		},
-		{
-			"id": "Zealot",
+		"Zealot": {
 			"name": "Zealot"
 		}
-	]
+	}
 }

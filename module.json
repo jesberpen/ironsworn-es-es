@@ -30,5 +30,22 @@
   "system": [
     "foundry-ironsworn"
   ],
-  "packs": []
+  "packs": [
+   {
+      "name": "ironsworn-delve-temas-es",
+      "label": "Ironsworn Delve Temas [ES]",
+      "path": "packs/ironsworn-delve-temas-es.db",
+      "entity": "Item",
+      "module": "ironsworn-es-es",
+      "private": false
+    },
+    {
+      "name": "ironsworn-delve-territorios-es",
+      "label": "Ironsworn Delve Territorios [ES]",
+      "path": "packs/ironsworn-delve-territorios-es.db",
+      "entity": "Item",
+      "module": "ironsworn-es-es",
+      "private": false
+    }
+  ]
 }
