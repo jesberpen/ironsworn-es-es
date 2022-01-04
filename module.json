@@ -46,6 +46,14 @@
       "entity": "Item",
       "module": "ironsworn-es-es",
       "private": false
+    },
+    {
+      "name": "ironsworn-tablas-solo-es",
+      "label": "Ironsworn Tablas [Solo ES]",
+      "path": "packs/ironsworn-tablas-solo-es.db",
+      "entity": "RollTable",
+      "module": "ironsworn-es-es",
+      "private": false
     }
   ]
 }

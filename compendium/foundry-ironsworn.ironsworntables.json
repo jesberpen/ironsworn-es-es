@@ -1,5 +1,5 @@
 {
-	"label": "Ironsworn Tablas",
+	"label": "Ironsworn Tablas [EN/ES]",
 
 	"entries": {
 		"Oracle: Action": {
@@ -359,85 +359,558 @@
 			}
 		},
 		"Oracle: Coastal Waters Location": {
-			"name": "Oracle: Coastal Waters Location"
+			"name": "Oracle: Coastal Waters Location",
+			"description": "Oráculo: Ubicación en aguas costeras",
+			"results": {
+				"1-1": "Flota",
+				"2-2": "Sargazo",
+				"3-3": "Pecio/Restos flotantes de un naufragio",
+				"4-4": "Lugar Místico",
+				"5-5": "Guarida",
+				"6-10": "Naufragio",
+				"11-15": "Puerto",
+				"16-22": "Barco",
+				"23-30": "Rocas",
+				"31-38": "Fiordo",
+				"39-46": "Desembocadura",
+				"47-54": "Cala",
+				"55-62": "Bahía",
+				"63-70": "Hielo",
+				"71-85": "Isla",
+				"86-99": "Mar abierto",
+				"100-100": "Anomalía"
+			}
 		},
 		"Oracle: Combat Action": {
-			"name": "Oracle: Combat Action"
+			"name": "Oracle: Combat Action",
+			"description": "Oráculo: Acciones de combate",
+			"results": {
+				"1-3": "Forzar a rendirse",
+				"4-9": "Realizar una acción decisiva",
+				"10-12": "Coordinar con aliados",
+				"13-16": "Capturar algo o alguien",
+				"17-20": "Intimidar o atemorizar",
+				"21-24": "Centrarse en otra persona o cosa",
+				"25-30": "Reforzar defensas",
+				"31-38": "Usar el terreno para ganar ventaja",
+				"39-48": "Crear una oportunidad",
+				"49-58": "Atacar con potencia",
+				"59-61": "Reagrupar refuerzos",
+				"62-68": "Preparar una acción",
+				"69-72": "Provocar una respuesta imprudente",
+				"73-80": "Usar la ventaja de un arma o competencia",
+				"81-84": "Revelar una verdad sorprendente",
+				"85-95": "Atacar con precisión",
+				"96-99": "Destrozar algo o inutilizarlo",
+				"100-100": "Realiza una acción totalemente inesperada"
+			}
 		},
 		"Oracle: Elf Names": {
-			"name": "Oracle: Elf Names"
+			"name": "Oracle: Elf Names",
+			"description": "Oráculo: Nombres de Elfos"
 		},
 		"Oracle: Giant Names": {
-			"name": "Oracle: Giant Names"
+			"name": "Oracle: Giant Names",
+			"description": "Oráculo: Nombres de Gigantes"
 		},
 		"Oracle: Ironlander Names": {
-			"name": "Oracle: Ironlander Names"
+			"name": "Oracle: Ironlander Names",
+			"description": "Oráculo: Nombres de habitantes de las Tierras del Hierro"
 		},
 		"Oracle: Location": {
-			"name": "Oracle: Location"
+			"name": "Oracle: Location",
+			"description": "Oráculo: Ubicación",
+			"results": {
+				"1-1": "Escondrijo",
+				"2-2": "Ruina",
+				"3-3": "Mina",
+				"4-4": "Yermo",
+				"5-5": "Lugar Místico",
+				"6-6": "Vereda",
+				"7-7": "Puesto avanzado",
+				"8-8": "Muralla",
+				"9-9": "Campo de batalla",
+				"10-10": "Choza",
+				"11-11": "Manantial",
+				"12-12": "Guarida",
+				"13-13": "Fuerte",
+				"14-14": "Puente",
+				"15-15": "Campamento",
+				"16-16": "Mojón/Tumba",
+				"17-18": "Caravana",
+				"19-20": "Cascada",
+				"21-22": "Cueva",
+				"23-24": "Pantano",
+				"25-26": "Ciénaga",
+				"27-28": "Garganta",
+				"29-30": "Camino",
+				"31-32": "Árbol",
+				"33-34": "Estanque",
+				"35-36": "Campos de cultivo",
+				"37-38": "Marisma",
+				"39-40": "Granja",
+				"41-42": "Rápidos",
+				"43-44": "Paso",
+				"45-46": "Senda",
+				"47-48": "Claro",
+				"49-50": "Llanura",
+				"51-52": "Cresta",
+				"53-54": "Acantilado",
+				"55-56": "Arboleda",
+				"57-58": "Pueblo",
+				"59-60": "Brezal",
+				"61-62": "Matorral",
+				"63-64": "Vado",
+				"65-66": "Valle",
+				"67-68": "Bahía/Fiordo",
+				"69-70": "Laderas",
+				"71-72": "Lago",
+				"73-75": "Río",
+				"76-79": "Bosque grande",
+				"80-83": "Costa",
+				"84-88": "Monte",
+				"89-93": "Montaña",
+				"94-99": "Bosque pequeño",
+				"100-100": "Anomalía"
+			}
 		},
 		"Oracle: Location Descriptor": {
-			"name": "Oracle: Location Descriptor"
+			"name": "Oracle: Location Descriptor",
+			"description": "Oráculo: Descriptor de ubicación",
+			"results": {
+				"1-2": "Alto/a",
+				"3-4": "Remoto/a",
+				"5-6": "Expuesto/a",
+				"7-8": "Pequeño/a",
+				"9-10": "Accidentado/a",
+				"11-12": "Diverso/a",
+				"13-14": "Agreste",
+				"15-16": "Oscuro/a",
+				"17-18": "Sombrío/a",
+				"19-20": "Disputado/a",
+				"21-22": "Lúgubre",
+				"23-24": "Salvaje",
+				"25-26": "Fértil",
+				"27-28": "Bloqueado/a",
+				"29-30": "Antiguo/a",
+				"31-32": "Peligroso/a",
+				"33-34": "Oculto/a",
+				"35-36": "Habitado/a",
+				"37-38": "Rico/a",
+				"39-40": "Grande",
+				"41-42": "Brutal",
+				"43-44": "Defendido/a",
+				"45-46": "Marchitado/a",
+				"47-48": "Místico/a",
+				"49-50": "Inacesible",
+				"51-52": "Protegido/a",
+				"53-54": "Abandonado/a",
+				"55-56": "Amplio/a",
+				"57-58": "Fétido/a",
+				"59-60": "Muerto/a",
+				"61-62": "En ruinas",
+				"63-64": "Baldío/a",
+				"65-66": "Frío/a",
+				"67-68": "Maldito/a",
+				"69-70": "Bajo/a",
+				"71-72": "Bonito/a",
+				"73-74": "Abundante",
+				"75-76": "Lustroso/a",
+				"77-78": "Anegado/a",
+				"79-80": "Vacío/a",
+				"81-82": "Extraño/a",
+				"83-84": "Corrompido/a",
+				"85-86": "Pacífico/a",
+				"87-88": "Olvidado/a",
+				"89-90": "Extenso/a",
+				"91-92": "Poblado/a",
+				"93-94": "Denso/a",
+				"95-96": "Civilizado/a",
+				"97-98": "Desolado/a",
+				"99-100": "Aislado/a"
+			}
 		},
 		"Oracle: Major Plot Twist": {
-			"name": "Oracle: Major Plot Twist"
+			"name": "Oracle: Major Plot Twist",
+			"description": "Oráculo: Giro argumental importante",
+			"results": {
+				"1-5": "Todo era una distracción",
+				"6-10": "Llegas demasiado tarde",
+				"11-15": "Un oscuro secreto es revelado",
+				"16-20": "Una suposición es revelada como falsa",
+				"21-25": "Tus acciones benefician a un enemigo",
+				"26-30": "Un adversario mas peligroso es revelado",
+				"31-35": "Un identidad verdadera es revelada",
+				"36-40": "El verdadero enemigo es revelado",
+				"41-45": "un nuevo peligro aparece",
+				"46-50": "La verdad sobre una relación es revelada",
+				"51-55": "Poderes o capacidades inesperados son revelados",
+				"56-60": "Se activa una trampa",
+				"61-65": "El enemigo gana nuevos aliados",
+				"66-70": "Una alianza secreta es revelada",
+				"71-75": "Alguien o algo desaparece",
+				"76-80": "Alguien vuelve de forma inesperada",
+				"81-85": "Dos situaciones aparentemente no relacionadas están conectadas",
+				"86-90": "Tu y el enemigo tenéis un objetivo común",
+				"91-95": "Tira dos veces mas en esta tabla. Ambos resultados ocurren. Si son el mismo resultado, hazlo más dramático",
+				"96-100": "Eres traicionado por alguien en quien confiabas"
+			}
 		},
 		"Oracle: Mystic Backlash": {
-			"name": "Oracle: Mystic Backlash"
+			"name": "Oracle: Mystic Backlash",
+			"description": "Oráculo: Efectos negativos místicos",
+			"results": {
+				"1-4": "Tu ritual tiene el efecto opuesto.",
+				"5-8": "Pierdes uno de tus sentidos por varias horas.",
+				"9-12": "Te quedas debilitado, pierdes tus fuerzas.",
+				"13-16": "Destruyes un objeto importante",
+				"17-20": "Colapsas y entras en un sueño intranquilo.",
+				"21-24": "Oyes voces fantasmales que susurran oscuros presagios.",
+				"25-28": "Alertas de tu presencia a algo o alguien.",
+				"29-32": "Afectas o dañas tu entorno, causando una perturbación o un daño potencial.",
+				"33-36": "Pierdes tu conexión con la magia durante un día más o menos, y no puedes realizar rituales.",
+				"37-40": "Tu ritual revela una verdad sorprendente y perturbadora.",
+				"41-44": "Tienes una visión perturbadora de tu futuro.",
+				"45-48": "Desarollas una fobia o compulsión.",
+				"49-52": "Te ves atormentado por una aparición de tu pasado.",
+				"53-56": "Tira dos veces mas en esta tabla. Ambos resultados ocurren. Si son el mismo resultado, hazlo más dramático.",
+				"57-60": "Tu amigo, aliado o compañero se ve afectado de forma adversa.",
+				"61-64": "Su ritual afecta al objetivo de una manera inesperada y problemática.",
+				"65-68": "de forma inadvertida invocas una abominación.",
+				"69-72": "Te ves tentado por poderes oscuros.",
+				"73-76": "Sufres un tormento físico que te deja huella.",
+				"77-80": "No puedes volver a realizar este ritual hasta que adquieras un componente importante.",
+				"81-84": "Te pierdes en la sombra y te encuentras en otro lugar sin recordar cómo has llegado allí.",
+				"85-88": "Tu ritual hace que las criaturas muestren un comportamiento extraño o agresivo.",
+				"89-92": "No eres tú mismo y actúas contra un amigo, aliado o compañero.",
+				"93-96": "Te ves afligido por una enfermedad repentina.",
+				"97-100": "Malgastas suministros."
+			}
 		},
 		"Oracle: Pay the Price": {
-			"name": "Oracle: Pay the Price"
+			"name": "Oracle: Pay the Price",
+			"description": "Oráculo: Paga el precio",
+			"results": {
+				"1-2": "Vuelve a tirar y aplica ese resultado pero hazlo peor. Si vuelves a sacar este resultado, piensa en algo terrible que cambie el curso de tu búsqueda (pregúnta al Oráculo en caso de dudao) y haz que ocurra.",
+				"3-5": "Una persona o comunidad en la que confiabas pierde la fe en ti, o actúa en tu contra.",
+				"6-9": "Una persona o comunidad que te importa queda expuesta al peligro.",
+				"10-16": "Te ves separado de algo o alguien.",
+				"17-23": "Tus acción tiene un efecto inesperado.",
+				"24-32": "Algo de valor es destruido o se pierde.",
+				"33-41": "La situación actual empeora.",
+				"42-50": "Un nuevo peligro o adversario es revelado.",
+				"51-59": "Causa un retraso o te pone en una posición de desventaja.",
+				"60-68": "Produce daño.",
+				"69-76": "Produce estrés.",
+				"77-85": "Una revelación inesperada complica tu misión.",
+				"86-90": "Malgastas suministros.",
+				"91-94": "Te fuerza a actuar en contra de tus buenas intenciones.",
+				"95-98": "Un amigo, compañero o aliado se pone en peligro (o tú, si estás solo).",
+				"99-100": "Tira dos veces mas en esta tabla. Ambos resultados ocurren. Si son el mismo resultado, hazlo más dramático."
+			}
 		},
 		"Oracle: Quick Settlement Name (Prefix)": {
-			"name": "Oracle: Quick Settlement Name (Prefix)"
+			"name": "Oracle: Quick Settlement Name (Prefix)",
+			"description": "Oráculo: Nombre de asentamiento rápido (Prefijo) [EN]"
 		},
 		"Oracle: Quick Settlement Name (Suffix)": {
-			"name": "Oracle: Quick Settlement Name (Suffix)"
+			"name": "Oracle: Quick Settlement Name (Suffix)",
+			"description": "Oráculo: Nombre de asentamiento rápido (Sufijo) [EN]"
 		},
 		"Oracle: Region": {
-			"name": "Oracle: Region"
+			"name": "Oracle: Region",
+			"description": "Oráculo: Región",
+			"results": {
+				"1-12": "Islas de la Barrera",
+				"13-24": "Costa Quebrada",
+				"25-34": "Profundidades Salvajes",
+				"35-46": "Tierras Inundadas",
+				"47-60": "Los Refugios",
+				"61-72": "Tierras Interiores",
+				"73-84": "Colinas de la Tempestad",
+				"85-94": "Montañas Veladas",
+				"95-99": "Páramos Destrozados",
+				"100-100": "En otro lugar"
+			}
 		},
 		"Oracle: Settlement Name": {
-			"name": "Oracle: Settlement Name"
+			"name": "Oracle: Settlement Name",
+			"description": "Oráculo: Nombre de asentamiento",
+			"results": {
+				"1-15": "El asentamiento recibe el nombre de una característica del paisaje.",
+				"15-30": "El asentamiento recibe el nombre de una construcción humana.",
+				"31-45": "El asentamiento recibe el nombre de una criatura.",
+				"46-60": "El asentamiento recibe el nombre de un evento histórico.",
+				"61-75": "El asentamiento recibe el nombre de una lengua del Viejo Mundo.",
+				"76-90": "El asentamiento recibe el nombre de una estación o aspecto ambiental.",
+				"91-100": "El asentamiento recibe el nombre de algo diferente."
+			}
 		},
 		"Oracle: Settlement Name (Creature)": {
 			"name": "Oracle: Settlement Name (Creature)",
-			"description": "Why have the people of this settlement chosen this creature as their totem? How is it represented in art or rituals?"
+			"description": "Oráculo: Nombre de asentamiento (Criatura)\n¿Por qué los habitantes de este asentamiento han elegido a esta criatura como su tótem? ¿Cómo se representa en el arte o en los rituales?",
+			"results": {
+				"1-10": "Acantilado del Cuervo",
+				"11-20": "Bosque Jabalí",
+				"21-30": "Marca del Oso",
+				"31-40": "Nido del Águila",
+				"41-50": "Madriguera del Zorro",
+				"51-60": "Campo del Alce",
+				"61-70": "Risco del Lobo",
+				"71-80": "Vijía Anciana",
+				"81-90": "Reposo del Dragón",
+				"91-100": "Sombra del Dragón"
+			}
 		},
 		"Oracle: Settlement Name (Historical Event)": {
 			"name": "Oracle: Settlement Name (Historical Event)",
-			"description": "What happened here? What place or practice commemorates this event?"
+			"description": "Oráculo: Nombre de asentamiento (Evento Histórico)\n¿Qué ocurrió aquí? ¿Qué lugar o práctica conmemora este acontecimiento?",
+			"results": {
+				"1-10": "Caída del loco",
+				"11-20": "Aguas Perdidas",
+				"21-30": "Casco Quebrado",
+				"31-40": "Última Marcha",
+				"41-50": "Refugio Espada",
+				"51-60": "Guardia de Olgar",
+				"61-70": "Primer Encuentro",
+				"71-80": "Lamento de Rojirra",
+				"81-90": "Lamento encantado",
+				"91-100": "Roca caída"
+			}
 		},
 		"Oracle: Settlement Name (Landscape Feature)": {
 			"name": "Oracle: Settlement Name (Landscape Feature)",
-			"description": "Envision what it is. What makes it unusual or distinctive?"
+			"description": "Oráculo: Nombre de asentamiento (Característica del Paisaje)\nImagina lo que es. ¿Qué lo hace inusual o distintivo?",
+			"results": {
+				"1-10": "Monte Alto",
+				"11-20": "Paso de Piedra",
+				"21-30": "Agua Salada",
+				"31-40": "Cresta Roja",
+				"41-50": "Agua Profunda",
+				"51-60": "Acantilado Gris",
+				"61-70": "Bosque Helado",
+				"71-80": "Cascada Blanca",
+				"81-90": "Árbol Lúgubre",
+				"91-100": "Tres Ríos"
+			}
 		},
 		"Oracle: Settlement Name (Manmade Edifice)": {
 			"name": "Oracle: Settlement Name (Manmade Edifice)",
-			"description": "What is it? Why is it important to this settlement’s history?"
+			"description": "Oráculo: Nombre de asentamiento (Construcción Humana)\n¿Qué es? ¿Por qué es importante para la historia de este asentamiento?",
+			"results": {
+				"1-10": "Puente Blanco",
+				"11-20": "Muro de Madera",
+				"21-30": "Fuerte Solitario",
+				"31-40": "Torre de Piedra",
+				"41-50": "Túmulo Alto",
+				"51-60": "Salón Espinoso",
+				"61-70": "Salón Rojo",
+				"71-80": "Casa Ceniza",
+				"81-90": "Pozo Oscuro",
+				"91-100": "Pajares"
+			}
 		},
 		"Oracle: Settlement Name (Old Language)": {
 			"name": "Oracle: Settlement Name (Old Language)",
-			"description": "What culture is represented by this word? What does it translate to?"
+			"description": "Oráculo: Nombre de asentamiento (Lengua del Viejo Mundo)\n¿Qué cultura representa esta palabra? ¿A qué se traduce?"
 		},
 		"Oracle: Settlement Name (Season or Environmental Aspect)": {
 			"name": "Oracle: Settlement Name (Season or Environmental Aspect)",
-			"description": "What influence does the weather have on this settlement?"
+			"description": "Oráculo: Nombre de asentamiento (Estación o aspecto ambiental)\n¿Qué influencia tiene el clima en este asentamiento?",
+			"results": {
+				"1-10": "Refugio del Viento",
+				"11-20": "Helada Desoladora",
+				"21-30": "Risco Helado",
+				"31-40": "Rompehielos",
+				"41-50": "Remanso de la Tormenta",
+				"51-60": "Arroyo Primaveral",
+				"61-70": "Marea Primaveral",
+				"71-80": "Canción Veraniega",
+				"81-90": "Invernalia",
+				"91-100": "Páramo del Anochecer"
+			}
 		},
 		"Oracle: Settlement Name (Something Else)": {
-			"name": "Oracle: Settlement Name (Something Else)"
+			"name": "Oracle: Settlement Name (Something Else)",
+			"description": "Oráculo: Nombre de asentamiento (Otra cosa)",
+			"results": {
+				"1-10": "Una ciudad del Viejo Mundo (Nuevo Arkesh)",
+				"11-20": "Un diosa o una Diosa (Elisora)",
+				"21-30": "Una raza de los primeros nacidos (Arroyo de los Elfos)",
+				"31-40": "Un evento o creencia mística (Camino Fantasmal)",
+				"41-50": "Un término negativo (Desamparado)",
+				"51-60": "Un bien comercial (Casa del Hierro)",
+				"61-70": "Un colono o alguien famoso (Salón de Kei)",
+				"71-80": "Un objeto histórico (Casco negro)",
+				"81-90": "Nombre o palábra élfica (Nessana)",
+				"91-100": "Un término positivo (Esperanza)"
+			}
 		},
 		"Oracle: Settlement Trouble": {
-			"name": "Oracle: Settlement Trouble"
+			"name": "Oracle: Settlement Trouble",
+			"description": "Oráculo: Problemas en asentamientos",
+			"results": {
+				"1-2": "Forasteros rechazados",
+				"3-4": "Liderazgo injusto",
+				"5-6": "Familias en conflicto",
+				"7-8": "Descubrimiento peligroso",
+				"9-10": "Desastre natural",
+				"11-12": "Objeto importante se pierde",
+				"13-14": "Fenómeno misterioso",
+				"15-16": "Marginado vengativo",
+				"17-18": "La naturaleza contrataca",
+				"19-20": "La producción se para",
+				"21-22": "Hay que pagar la deuda",
+				"23-24": "Accidente desastroso",
+				"25-26": "Saqueadores acehcan a los débiles",
+				"27-28": "Un inocente es acusado",
+				"29-30": "Aislado por un tiempo brutal",
+				"31-32": "La enfermedad avanza sin frenos",
+				"33-34": "Un ataque es inminente",
+				"35-36": "Un oscuro secreto es revelado",
+				"37-38": "Un líder cae",
+				"39-40": "Liderazgo incompetente",
+				"41-42": "Un bestia anda de caza",
+				"43-44": "Se rompe una tregua",
+				"45-46": "Conflicto con los primeros nacidos",
+				"47-48": "En fuego cruzado",
+				"49-50": "Evento importante amenazado",
+				"51-60": "Tira dos veces",
+				"61-62": "Augurio terribe",
+				"63-64": "Aliados de tus enemigos",
+				"65-66": "Belicismo temerario",
+				"67-68": "Viejas heridas son reabiertas",
+				"69-70": "Pasado maldito",
+				"71-72": "Traicinados desde dentro",
+				"73-74": "ALguien es capturado",
+				"75-76": "Corrompidos por magia negra",
+				"77-78": "Aparición furiosa",
+				"79-80": "Revuelta contra un líder",
+				"81-82": "Suministros escasos",
+				"83-84": "Ruta comercial bloqueada",
+				"85-86": "Asentamiento rival",
+				"87-88": "Aliados se vuelven enemigos",
+				"89-90": "Un extraño causa discordia",
+				"91-92": "Alguien falta",
+				"93-94": "Caravana perdida",
+				"95-96": "Tradición peligrosa",
+				"97-98": "Asesinatos misteriosos",
+				"99-100": "Expedición urgente"
+			}
 		},
 		"Oracle: Theme": {
-			"name": "Oracle: Theme"
+			"name": "Oracle: Theme",
+			"description":"Oráculo: Tema",
+			"results": {
+				"1-1": "Riesgo",
+				"2-2": "Habilidad",
+				"3-3": "Precio",
+				"4-4": "Aliado",
+				"5-5": "Batalla",
+				"6-6": "Seguridad",
+				"7-7": "Supervivencia",
+				"8-8": "Arma",
+				"9-9": "herida",
+				"10-10": "Refugio",
+				"11-11": "Líder",
+				"12-12": "Miedo",
+				"13-13": "Tiempo",
+				"14-14": "Obligación",
+				"15-15": "Secreto",
+				"16-16": "Inocencia",
+				"17-17": "Prestigio",
+				"18-18": "Dirección",
+				"19-19": "Muerte",
+				"20-20": "Honor",
+				"21-21": "Profesión",
+				"22-22": "Solución",
+				"23-23": "Herramienta",
+				"24-24": "Equilibrio",
+				"25-25": "Amor",
+				"26-26": "Barrera",
+				"27-27": "Creación",
+				"28-28": "Decadencia",
+				"29-29": "Comercio",
+				"30-30": "Vínculo",
+				"31-31": "Esperanza",
+				"32-32": "Superstición",
+				"33-33": "Paz",
+				"34-34": "Engaño",
+				"35-35": "Historia",
+				"36-36": "Mundo",
+				"37-37": "Juramento",
+				"38-38": "Protección",
+				"39-39": "Naturaleza",
+				"40-40": "Opinión",
+				"41-41": "Carga",
+				"42-42": "Venganza",
+				"43-43": "Oportunidad",
+				"44-44": "Facción",
+				"45-45": "Peligro",
+				"46-46": "Corrupción",
+				"47-47": "Libertad",
+				"48-48": "Deuda",
+				"49-49": "Odio",
+				"50-50": "Posesión",
+				"51-51": "Extraño",
+				"52-52": "Pasaje",
+				"53-53": "Tierra",
+				"54-54": "Criatura",
+				"55-55": "Enfermedad",
+				"56-56": "Ventaja",
+				"57-57": "Sangre",
+				"58-58": "Idioma",
+				"59-59": "Rumor",
+				"60-60": "Debilidad",
+				"61-61": "Codicia",
+				"62-62": "Familia",
+				"63-63": "Recursos",
+				"64-64": "Estructura",
+				"65-65": "Sueños",
+				"66-66": "Comunidad",
+				"67-67": "Guerra",
+				"68-68": "Portento",
+				"69-69": "Precio",
+				"70-70": "Destino",
+				"71-71": "Impulso",
+				"72-72": "Poder",
+				"73-73": "Memoria",
+				"74-74": "Ruina",
+				"75-75": "Misticismo",
+				"76-76": "Rival",
+				"77-77": "Problema",
+				"78-78": "Idea",
+				"79-79": "Venganza",
+				"80-80": "Salud",
+				"81-81": "Compañía",
+				"82-82": "Enemigo",
+				"83-83": "Religión",
+				"84-84": "Espíritu",
+				"85-85": "Fama",
+				"86-86": "Desolación",
+				"87-87": "Fuerza",
+				"88-88": "Conocimiento",
+				"89-89": "Verdad",
+				"90-90": "Misión",
+				"91-91": "Orgullo",
+				"92-92": "Pérdida",
+				"93-93": "Ley",
+				"94-94": "Trayectoria",
+				"95-95": "Advertencia",
+				"96-96": "Relación",
+				"97-97": "Riqueza",
+				"98-98": "Hogar",
+				"99-99": "Estrategia",
+				"100-100": "Suministrar"
+			}
 		},
 		"Oracle: Troll Names": {
-			"name": "Oracle: Troll Names"
+			"name": "Oracle: Troll Names",
+			"description":"Oráculo: Nombres de Trol"
 		},
 		"Oracle: Varou Names": {
-			"name": "Oracle: Varou Names"
+			"name": "Oracle: Varou Names",
+			"description": "Oráculo: Nombres de Varou"
 		}
 	}
 }
