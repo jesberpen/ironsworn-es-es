@@ -5,7 +5,7 @@
   "version":"0.0.1",
   "author":"Gato Malefico",
   "minimumCoreVersion":"0.8.9",
-  "compatibleCoreVersion":"0.8.9",
+  "compatibleCoreVersion":"9",
   "esmodules": ["babele-register.js"],
   "url":"https://github.com/jesberpen/ironsworn-es-es",
   "manifest": "https://raw.githubusercontent.com/jesberpen/ironsworn-es-es/main/module.json",
