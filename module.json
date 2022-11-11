@@ -8,8 +8,8 @@
   "compatibleCoreVersion":"10",
   "esmodules": ["babele-register.js"],
   "url":"https://github.com/jesberpen/ironsworn-es-es",
-  "manifest": "https://raw.githubusercontent.com/jesberpen/ironsworn-es-es/main/module.json",
-  "download": "https://codeload.github.com/jesberpen/ironsworn-es-es/zip/main",
+  "manifest": "https://raw.githubusercontent.com/gorvaine/ironsworn-es-es/blob/updateV10/module.json",
+  "download": "https://github.com/Gorvaine/ironsworn-es-es/archive/refs/tags/2.0.zip",
    "languages":[
       {
          "lang": "es",
