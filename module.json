@@ -2,7 +2,7 @@
   "name":"ironsworn-es-es",
   "title":"Ironsworn - Español",
   "description":"Traducción en español para el sistema Ironsworn y suplemento Delve.",
-  "version":"0.0.2",
+  "version":"2.0",
   "author":"Gato Malefico",
   "minimumCoreVersion":"0.8.9",
   "compatibleCoreVersion":"10",
