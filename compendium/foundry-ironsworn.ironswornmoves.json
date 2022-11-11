@@ -2,9 +2,9 @@
 	"label": "Ironsworn Movimientos",
 	"mapping": {
 		"description": "system.Text",
-		"strong": "system.strong",
-		"weak": "system.weak",
-		"miss": "system.miss"
+	        "strong": "system.Outcomes.Strong Hit.Text",
+	        "weak": "system.Outcomes.Weak Hit.Text",
+	        "miss": "system.Outcomes.Miss.Text"
 	},
 
 	"entries": {
