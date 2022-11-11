@@ -20,6 +20,7 @@
    "dependencies":[
       {
          "name":"babele",
+         "item": "module",
          "manifest":"https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json"
       },
       {
