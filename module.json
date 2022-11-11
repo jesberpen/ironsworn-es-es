@@ -2,14 +2,14 @@
   "name":"ironsworn-es-es",
   "title":"Ironsworn - Español",
   "description":"Traducción en español para el sistema Ironsworn y suplemento Delve.",
-  "version":"2.3",
+  "version":"2.4",
   "author":"Gato Malefico",
   "minimumCoreVersion":"0.8.9",
   "compatibleCoreVersion":"10",
   "esmodules": ["babele-register.js"],
   "url":"https://github.com/jesberpen/ironsworn-es-es",
   "manifest": "https://raw.githubusercontent.com/gorvaine/ironsworn-es-es/updateV10/module.json",
-  "download": "https://github.com/Gorvaine/ironsworn-es-es/archive/refs/tags/2.3.zip",
+  "download": "https://github.com/Gorvaine/ironsworn-es-es/archive/refs/tags/2.4.zip",
    "languages":[
       {
          "lang": "es",
